@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/zlib/CMakeFiles/localzlib.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 
 libraries/zlib/CMakeFiles/localzlib.dir/adler32.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/adler32.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/adler32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/adler32.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/adler32.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/adler32.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/adler32.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/adler32.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/adler32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/adler32.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/adler32.c > CMakeFiles/localzlib.dir/adler32.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/adler32.c > CMakeFiles/localzlib.dir/adler32.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/adler32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/adler32.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/adler32.c -o CMakeFiles/localzlib.dir/adler32.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/adler32.c -o CMakeFiles/localzlib.dir/adler32.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/adler32.c.o.requires:
 
@@ -83,16 +83,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/adler32.c.o.provides.build: libraries/zl
 
 libraries/zlib/CMakeFiles/localzlib.dir/compress.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/compress.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/compress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/compress.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/compress.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/compress.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/compress.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/compress.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/compress.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/compress.c > CMakeFiles/localzlib.dir/compress.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/compress.c > CMakeFiles/localzlib.dir/compress.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/compress.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/compress.c -o CMakeFiles/localzlib.dir/compress.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/compress.c -o CMakeFiles/localzlib.dir/compress.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/compress.c.o.requires:
 
@@ -107,16 +107,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/compress.c.o.provides.build: libraries/z
 
 libraries/zlib/CMakeFiles/localzlib.dir/crc32.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/crc32.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/crc32.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/crc32.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/crc32.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/crc32.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/crc32.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/crc32.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/crc32.c > CMakeFiles/localzlib.dir/crc32.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/crc32.c > CMakeFiles/localzlib.dir/crc32.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/crc32.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/crc32.c -o CMakeFiles/localzlib.dir/crc32.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/crc32.c -o CMakeFiles/localzlib.dir/crc32.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/crc32.c.o.requires:
 
@@ -131,16 +131,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/crc32.c.o.provides.build: libraries/zlib
 
 libraries/zlib/CMakeFiles/localzlib.dir/deflate.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/deflate.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/deflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/deflate.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/deflate.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/deflate.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/deflate.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/deflate.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/deflate.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/deflate.c > CMakeFiles/localzlib.dir/deflate.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/deflate.c > CMakeFiles/localzlib.dir/deflate.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/deflate.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/deflate.c -o CMakeFiles/localzlib.dir/deflate.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/deflate.c -o CMakeFiles/localzlib.dir/deflate.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/deflate.c.o.requires:
 
@@ -155,16 +155,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/deflate.c.o.provides.build: libraries/zl
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzclose.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/gzclose.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzclose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/gzclose.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/gzclose.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzclose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/gzclose.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/gzclose.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzclose.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzclose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/gzclose.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzclose.c > CMakeFiles/localzlib.dir/gzclose.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzclose.c > CMakeFiles/localzlib.dir/gzclose.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzclose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/gzclose.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzclose.c -o CMakeFiles/localzlib.dir/gzclose.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzclose.c -o CMakeFiles/localzlib.dir/gzclose.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzclose.c.o.requires:
 
@@ -179,16 +179,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/gzclose.c.o.provides.build: libraries/zl
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzlib.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/gzlib.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/gzlib.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/gzlib.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/gzlib.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/gzlib.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzlib.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/gzlib.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzlib.c > CMakeFiles/localzlib.dir/gzlib.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzlib.c > CMakeFiles/localzlib.dir/gzlib.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/gzlib.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzlib.c -o CMakeFiles/localzlib.dir/gzlib.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzlib.c -o CMakeFiles/localzlib.dir/gzlib.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzlib.c.o.requires:
 
@@ -203,16 +203,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/gzlib.c.o.provides.build: libraries/zlib
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzread.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/gzread.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/gzread.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/gzread.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/gzread.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/gzread.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzread.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/gzread.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzread.c > CMakeFiles/localzlib.dir/gzread.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzread.c > CMakeFiles/localzlib.dir/gzread.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/gzread.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzread.c -o CMakeFiles/localzlib.dir/gzread.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzread.c -o CMakeFiles/localzlib.dir/gzread.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzread.c.o.requires:
 
@@ -227,16 +227,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/gzread.c.o.provides.build: libraries/zli
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzwrite.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/gzwrite.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/gzwrite.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/gzwrite.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/gzwrite.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/gzwrite.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzwrite.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/gzwrite.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzwrite.c > CMakeFiles/localzlib.dir/gzwrite.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzwrite.c > CMakeFiles/localzlib.dir/gzwrite.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/gzwrite.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzwrite.c -o CMakeFiles/localzlib.dir/gzwrite.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/gzwrite.c -o CMakeFiles/localzlib.dir/gzwrite.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/gzwrite.c.o.requires:
 
@@ -251,16 +251,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/gzwrite.c.o.provides.build: libraries/zl
 
 libraries/zlib/CMakeFiles/localzlib.dir/infback.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/infback.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/infback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/infback.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/infback.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/infback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/infback.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/infback.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/infback.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/infback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/infback.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/infback.c > CMakeFiles/localzlib.dir/infback.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/infback.c > CMakeFiles/localzlib.dir/infback.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/infback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/infback.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/infback.c -o CMakeFiles/localzlib.dir/infback.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/infback.c -o CMakeFiles/localzlib.dir/infback.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/infback.c.o.requires:
 
@@ -275,16 +275,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/infback.c.o.provides.build: libraries/zl
 
 libraries/zlib/CMakeFiles/localzlib.dir/inffast.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/inffast.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inffast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/inffast.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/inffast.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/inffast.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/inffast.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inffast.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/inffast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/inffast.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inffast.c > CMakeFiles/localzlib.dir/inffast.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inffast.c > CMakeFiles/localzlib.dir/inffast.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/inffast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/inffast.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inffast.c -o CMakeFiles/localzlib.dir/inffast.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inffast.c -o CMakeFiles/localzlib.dir/inffast.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/inffast.c.o.requires:
 
@@ -299,16 +299,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/inffast.c.o.provides.build: libraries/zl
 
 libraries/zlib/CMakeFiles/localzlib.dir/inflate.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/inflate.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/inflate.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/inflate.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/inflate.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/inflate.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inflate.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/inflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/inflate.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inflate.c > CMakeFiles/localzlib.dir/inflate.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inflate.c > CMakeFiles/localzlib.dir/inflate.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/inflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/inflate.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inflate.c -o CMakeFiles/localzlib.dir/inflate.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inflate.c -o CMakeFiles/localzlib.dir/inflate.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/inflate.c.o.requires:
 
@@ -323,16 +323,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/inflate.c.o.provides.build: libraries/zl
 
 libraries/zlib/CMakeFiles/localzlib.dir/inftrees.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/inftrees.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inftrees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/inftrees.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/inftrees.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/inftrees.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/inftrees.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inftrees.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/inftrees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/inftrees.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inftrees.c > CMakeFiles/localzlib.dir/inftrees.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inftrees.c > CMakeFiles/localzlib.dir/inftrees.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/inftrees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/inftrees.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inftrees.c -o CMakeFiles/localzlib.dir/inftrees.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/inftrees.c -o CMakeFiles/localzlib.dir/inftrees.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/inftrees.c.o.requires:
 
@@ -347,16 +347,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/inftrees.c.o.provides.build: libraries/z
 
 libraries/zlib/CMakeFiles/localzlib.dir/trees.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/trees.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/trees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/trees.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/trees.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/trees.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/trees.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/trees.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/trees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/trees.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/trees.c > CMakeFiles/localzlib.dir/trees.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/trees.c > CMakeFiles/localzlib.dir/trees.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/trees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/trees.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/trees.c -o CMakeFiles/localzlib.dir/trees.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/trees.c -o CMakeFiles/localzlib.dir/trees.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/trees.c.o.requires:
 
@@ -371,16 +371,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/trees.c.o.provides.build: libraries/zlib
 
 libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/uncompr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/uncompr.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/uncompr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/uncompr.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/uncompr.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/uncompr.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/uncompr.c > CMakeFiles/localzlib.dir/uncompr.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/uncompr.c > CMakeFiles/localzlib.dir/uncompr.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/uncompr.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/uncompr.c -o CMakeFiles/localzlib.dir/uncompr.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/uncompr.c -o CMakeFiles/localzlib.dir/uncompr.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c.o.requires:
 
@@ -395,16 +395,16 @@ libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c.o.provides.build: libraries/zl
 
 libraries/zlib/CMakeFiles/localzlib.dir/zutil.c.o: libraries/zlib/CMakeFiles/localzlib.dir/flags.make
 libraries/zlib/CMakeFiles/localzlib.dir/zutil.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/zutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/zutil.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/zutil.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object libraries/zlib/CMakeFiles/localzlib.dir/zutil.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localzlib.dir/zutil.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/zutil.c
 
 libraries/zlib/CMakeFiles/localzlib.dir/zutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localzlib.dir/zutil.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/zutil.c > CMakeFiles/localzlib.dir/zutil.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/zutil.c > CMakeFiles/localzlib.dir/zutil.c.i
 
 libraries/zlib/CMakeFiles/localzlib.dir/zutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localzlib.dir/zutil.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/zutil.c -o CMakeFiles/localzlib.dir/zutil.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/zutil.c -o CMakeFiles/localzlib.dir/zutil.c.s
 
 libraries/zlib/CMakeFiles/localzlib.dir/zutil.c.o.requires:
 
@@ -455,9 +455,9 @@ libraries/zlib/liblocalzlib.a: libraries/zlib/CMakeFiles/localzlib.dir/uncompr.c
 libraries/zlib/liblocalzlib.a: libraries/zlib/CMakeFiles/localzlib.dir/zutil.c.o
 libraries/zlib/liblocalzlib.a: libraries/zlib/CMakeFiles/localzlib.dir/build.make
 libraries/zlib/liblocalzlib.a: libraries/zlib/CMakeFiles/localzlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library liblocalzlib.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && $(CMAKE_COMMAND) -P CMakeFiles/localzlib.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/localzlib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library liblocalzlib.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && $(CMAKE_COMMAND) -P CMakeFiles/localzlib.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/localzlib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/zlib/CMakeFiles/localzlib.dir/build: libraries/zlib/liblocalzlib.a
@@ -483,10 +483,10 @@ libraries/zlib/CMakeFiles/localzlib.dir/requires: libraries/zlib/CMakeFiles/loca
 .PHONY : libraries/zlib/CMakeFiles/localzlib.dir/requires
 
 libraries/zlib/CMakeFiles/localzlib.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib && $(CMAKE_COMMAND) -P CMakeFiles/localzlib.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib && $(CMAKE_COMMAND) -P CMakeFiles/localzlib.dir/cmake_clean.cmake
 .PHONY : libraries/zlib/CMakeFiles/localzlib.dir/clean
 
 libraries/zlib/CMakeFiles/localzlib.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib/CMakeFiles/localzlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib/CMakeFiles/localzlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/zlib/CMakeFiles/localzlib.dir/depend
 

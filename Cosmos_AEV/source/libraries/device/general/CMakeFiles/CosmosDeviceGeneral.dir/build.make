@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/acq_a35.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/acq_a35.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/acq_a35.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/acq_a35.cpp > CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/acq_a35.cpp > CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/acq_a35.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/acq_a35.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o.provid
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/bbFctns.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/bbFctns.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/bbFctns.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/bbFctns.cpp > CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/bbFctns.cpp > CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/bbFctns.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/bbFctns.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o.provid
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/cssl_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/cssl_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/cssl_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/cssl_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/cssl_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/cssl_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/cssl_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o.provi
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/gige_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/gige_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/gige_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/gige_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/gige_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/gige_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/gige_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o.provi
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/gs232b_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/gs232b_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/gs232b_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/gs232b_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/gs232b_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/gs232b_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/gs232b_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o.requires:
 
@@ -179,16 +179,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o.pro
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/ic9100_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/ic9100_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/ic9100_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/ic9100_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/ic9100_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/ic9100_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/ic9100_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o.requires:
 
@@ -203,16 +203,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o.pro
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/kisslib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/kisslib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/kisslib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/kisslib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/kisslib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/kisslib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/kisslib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o.requires:
 
@@ -227,16 +227,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o.provid
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/kisstnc_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/kisstnc_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/kisstnc_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/kisstnc_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/kisstnc_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/kisstnc_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/kisstnc_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o.requires:
 
@@ -251,16 +251,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o.pr
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/kpc9612p_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/kpc9612p_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/kpc9612p_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/kpc9612p_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/kpc9612p_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/kpc9612p_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/kpc9612p_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o.requires:
 
@@ -275,16 +275,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o.p
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/mixwtnc_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/mixwtnc_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/mixwtnc_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/mixwtnc_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/mixwtnc_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/mixwtnc_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/mixwtnc_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o.requires:
 
@@ -299,16 +299,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o.pr
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/pic_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/pic_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/pic_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/pic_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/pic_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/pic_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/pic_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o.requires:
 
@@ -323,16 +323,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o.provid
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/prkx2su_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/prkx2su_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/prkx2su_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/prkx2su_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/prkx2su_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/prkx2su_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/prkx2su_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o.requires:
 
@@ -347,16 +347,16 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o.pr
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/flags.make
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/general/ts2000_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/ts2000_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/general/ts2000_lib.cpp
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/ts2000_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/general/ts2000_lib.cpp > CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.i
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/ts2000_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/general/ts2000_lib.cpp -o CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.s
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o.requires:
 
@@ -403,9 +403,9 @@ libraries/device/general/libCosmosDeviceGeneral.a: libraries/device/general/CMak
 libraries/device/general/libCosmosDeviceGeneral.a: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o
 libraries/device/general/libCosmosDeviceGeneral.a: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make
 libraries/device/general/libCosmosDeviceGeneral.a: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libCosmosDeviceGeneral.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceGeneral.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosDeviceGeneral.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libCosmosDeviceGeneral.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceGeneral.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosDeviceGeneral.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build: libraries/device/general/libCosmosDeviceGeneral.a
@@ -429,10 +429,10 @@ libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/requires: libraries/
 .PHONY : libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/requires
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceGeneral.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceGeneral.dir/cmake_clean.cmake
 .PHONY : libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/clean
 
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/device/general /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/device/general /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/depend
 

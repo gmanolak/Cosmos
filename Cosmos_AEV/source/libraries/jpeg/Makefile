@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/jpeg/CMakeFiles/progress.marks
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/jpeg/CMakeFiles/progress.marks
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/clean
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libraries/jpeg/CMakeFiles/localjpeg.dir/rule:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/CMakeFiles/localjpeg.dir/rule
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/CMakeFiles/localjpeg.dir/rule
 .PHONY : libraries/jpeg/CMakeFiles/localjpeg.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ localjpeg: libraries/jpeg/CMakeFiles/localjpeg.dir/rule
 
 # fast build rule for target.
 localjpeg/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/build
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/build
 .PHONY : localjpeg/fast
 
 jcapimin.o: jcapimin.cpp.o
@@ -177,7 +177,7 @@ jcapimin.o: jcapimin.cpp.o
 
 # target to build an object file
 jcapimin.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapimin.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapimin.cpp.o
 .PHONY : jcapimin.cpp.o
 
 jcapimin.i: jcapimin.cpp.i
@@ -186,7 +186,7 @@ jcapimin.i: jcapimin.cpp.i
 
 # target to preprocess a source file
 jcapimin.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapimin.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapimin.cpp.i
 .PHONY : jcapimin.cpp.i
 
 jcapimin.s: jcapimin.cpp.s
@@ -195,7 +195,7 @@ jcapimin.s: jcapimin.cpp.s
 
 # target to generate assembly for a file
 jcapimin.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapimin.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapimin.cpp.s
 .PHONY : jcapimin.cpp.s
 
 jcapistd.o: jcapistd.cpp.o
@@ -204,7 +204,7 @@ jcapistd.o: jcapistd.cpp.o
 
 # target to build an object file
 jcapistd.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapistd.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapistd.cpp.o
 .PHONY : jcapistd.cpp.o
 
 jcapistd.i: jcapistd.cpp.i
@@ -213,7 +213,7 @@ jcapistd.i: jcapistd.cpp.i
 
 # target to preprocess a source file
 jcapistd.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapistd.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapistd.cpp.i
 .PHONY : jcapistd.cpp.i
 
 jcapistd.s: jcapistd.cpp.s
@@ -222,7 +222,7 @@ jcapistd.s: jcapistd.cpp.s
 
 # target to generate assembly for a file
 jcapistd.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapistd.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcapistd.cpp.s
 .PHONY : jcapistd.cpp.s
 
 jccoefct.o: jccoefct.cpp.o
@@ -231,7 +231,7 @@ jccoefct.o: jccoefct.cpp.o
 
 # target to build an object file
 jccoefct.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccoefct.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccoefct.cpp.o
 .PHONY : jccoefct.cpp.o
 
 jccoefct.i: jccoefct.cpp.i
@@ -240,7 +240,7 @@ jccoefct.i: jccoefct.cpp.i
 
 # target to preprocess a source file
 jccoefct.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccoefct.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccoefct.cpp.i
 .PHONY : jccoefct.cpp.i
 
 jccoefct.s: jccoefct.cpp.s
@@ -249,7 +249,7 @@ jccoefct.s: jccoefct.cpp.s
 
 # target to generate assembly for a file
 jccoefct.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccoefct.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccoefct.cpp.s
 .PHONY : jccoefct.cpp.s
 
 jccolor.o: jccolor.cpp.o
@@ -258,7 +258,7 @@ jccolor.o: jccolor.cpp.o
 
 # target to build an object file
 jccolor.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccolor.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccolor.cpp.o
 .PHONY : jccolor.cpp.o
 
 jccolor.i: jccolor.cpp.i
@@ -267,7 +267,7 @@ jccolor.i: jccolor.cpp.i
 
 # target to preprocess a source file
 jccolor.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccolor.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccolor.cpp.i
 .PHONY : jccolor.cpp.i
 
 jccolor.s: jccolor.cpp.s
@@ -276,7 +276,7 @@ jccolor.s: jccolor.cpp.s
 
 # target to generate assembly for a file
 jccolor.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccolor.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jccolor.cpp.s
 .PHONY : jccolor.cpp.s
 
 jcdctmgr.o: jcdctmgr.cpp.o
@@ -285,7 +285,7 @@ jcdctmgr.o: jcdctmgr.cpp.o
 
 # target to build an object file
 jcdctmgr.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcdctmgr.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcdctmgr.cpp.o
 .PHONY : jcdctmgr.cpp.o
 
 jcdctmgr.i: jcdctmgr.cpp.i
@@ -294,7 +294,7 @@ jcdctmgr.i: jcdctmgr.cpp.i
 
 # target to preprocess a source file
 jcdctmgr.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcdctmgr.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcdctmgr.cpp.i
 .PHONY : jcdctmgr.cpp.i
 
 jcdctmgr.s: jcdctmgr.cpp.s
@@ -303,7 +303,7 @@ jcdctmgr.s: jcdctmgr.cpp.s
 
 # target to generate assembly for a file
 jcdctmgr.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcdctmgr.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcdctmgr.cpp.s
 .PHONY : jcdctmgr.cpp.s
 
 jchuff.o: jchuff.cpp.o
@@ -312,7 +312,7 @@ jchuff.o: jchuff.cpp.o
 
 # target to build an object file
 jchuff.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jchuff.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jchuff.cpp.o
 .PHONY : jchuff.cpp.o
 
 jchuff.i: jchuff.cpp.i
@@ -321,7 +321,7 @@ jchuff.i: jchuff.cpp.i
 
 # target to preprocess a source file
 jchuff.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jchuff.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jchuff.cpp.i
 .PHONY : jchuff.cpp.i
 
 jchuff.s: jchuff.cpp.s
@@ -330,7 +330,7 @@ jchuff.s: jchuff.cpp.s
 
 # target to generate assembly for a file
 jchuff.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jchuff.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jchuff.cpp.s
 .PHONY : jchuff.cpp.s
 
 jcinit.o: jcinit.cpp.o
@@ -339,7 +339,7 @@ jcinit.o: jcinit.cpp.o
 
 # target to build an object file
 jcinit.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcinit.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcinit.cpp.o
 .PHONY : jcinit.cpp.o
 
 jcinit.i: jcinit.cpp.i
@@ -348,7 +348,7 @@ jcinit.i: jcinit.cpp.i
 
 # target to preprocess a source file
 jcinit.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcinit.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcinit.cpp.i
 .PHONY : jcinit.cpp.i
 
 jcinit.s: jcinit.cpp.s
@@ -357,7 +357,7 @@ jcinit.s: jcinit.cpp.s
 
 # target to generate assembly for a file
 jcinit.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcinit.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcinit.cpp.s
 .PHONY : jcinit.cpp.s
 
 jcmainct.o: jcmainct.cpp.o
@@ -366,7 +366,7 @@ jcmainct.o: jcmainct.cpp.o
 
 # target to build an object file
 jcmainct.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmainct.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmainct.cpp.o
 .PHONY : jcmainct.cpp.o
 
 jcmainct.i: jcmainct.cpp.i
@@ -375,7 +375,7 @@ jcmainct.i: jcmainct.cpp.i
 
 # target to preprocess a source file
 jcmainct.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmainct.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmainct.cpp.i
 .PHONY : jcmainct.cpp.i
 
 jcmainct.s: jcmainct.cpp.s
@@ -384,7 +384,7 @@ jcmainct.s: jcmainct.cpp.s
 
 # target to generate assembly for a file
 jcmainct.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmainct.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmainct.cpp.s
 .PHONY : jcmainct.cpp.s
 
 jcmarker.o: jcmarker.cpp.o
@@ -393,7 +393,7 @@ jcmarker.o: jcmarker.cpp.o
 
 # target to build an object file
 jcmarker.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmarker.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmarker.cpp.o
 .PHONY : jcmarker.cpp.o
 
 jcmarker.i: jcmarker.cpp.i
@@ -402,7 +402,7 @@ jcmarker.i: jcmarker.cpp.i
 
 # target to preprocess a source file
 jcmarker.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmarker.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmarker.cpp.i
 .PHONY : jcmarker.cpp.i
 
 jcmarker.s: jcmarker.cpp.s
@@ -411,7 +411,7 @@ jcmarker.s: jcmarker.cpp.s
 
 # target to generate assembly for a file
 jcmarker.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmarker.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmarker.cpp.s
 .PHONY : jcmarker.cpp.s
 
 jcmaster.o: jcmaster.cpp.o
@@ -420,7 +420,7 @@ jcmaster.o: jcmaster.cpp.o
 
 # target to build an object file
 jcmaster.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmaster.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmaster.cpp.o
 .PHONY : jcmaster.cpp.o
 
 jcmaster.i: jcmaster.cpp.i
@@ -429,7 +429,7 @@ jcmaster.i: jcmaster.cpp.i
 
 # target to preprocess a source file
 jcmaster.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmaster.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmaster.cpp.i
 .PHONY : jcmaster.cpp.i
 
 jcmaster.s: jcmaster.cpp.s
@@ -438,7 +438,7 @@ jcmaster.s: jcmaster.cpp.s
 
 # target to generate assembly for a file
 jcmaster.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmaster.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcmaster.cpp.s
 .PHONY : jcmaster.cpp.s
 
 jcomapi.o: jcomapi.cpp.o
@@ -447,7 +447,7 @@ jcomapi.o: jcomapi.cpp.o
 
 # target to build an object file
 jcomapi.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcomapi.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcomapi.cpp.o
 .PHONY : jcomapi.cpp.o
 
 jcomapi.i: jcomapi.cpp.i
@@ -456,7 +456,7 @@ jcomapi.i: jcomapi.cpp.i
 
 # target to preprocess a source file
 jcomapi.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcomapi.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcomapi.cpp.i
 .PHONY : jcomapi.cpp.i
 
 jcomapi.s: jcomapi.cpp.s
@@ -465,7 +465,7 @@ jcomapi.s: jcomapi.cpp.s
 
 # target to generate assembly for a file
 jcomapi.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcomapi.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcomapi.cpp.s
 .PHONY : jcomapi.cpp.s
 
 jcparam.o: jcparam.cpp.o
@@ -474,7 +474,7 @@ jcparam.o: jcparam.cpp.o
 
 # target to build an object file
 jcparam.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcparam.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcparam.cpp.o
 .PHONY : jcparam.cpp.o
 
 jcparam.i: jcparam.cpp.i
@@ -483,7 +483,7 @@ jcparam.i: jcparam.cpp.i
 
 # target to preprocess a source file
 jcparam.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcparam.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcparam.cpp.i
 .PHONY : jcparam.cpp.i
 
 jcparam.s: jcparam.cpp.s
@@ -492,7 +492,7 @@ jcparam.s: jcparam.cpp.s
 
 # target to generate assembly for a file
 jcparam.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcparam.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcparam.cpp.s
 .PHONY : jcparam.cpp.s
 
 jcphuff.o: jcphuff.cpp.o
@@ -501,7 +501,7 @@ jcphuff.o: jcphuff.cpp.o
 
 # target to build an object file
 jcphuff.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcphuff.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcphuff.cpp.o
 .PHONY : jcphuff.cpp.o
 
 jcphuff.i: jcphuff.cpp.i
@@ -510,7 +510,7 @@ jcphuff.i: jcphuff.cpp.i
 
 # target to preprocess a source file
 jcphuff.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcphuff.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcphuff.cpp.i
 .PHONY : jcphuff.cpp.i
 
 jcphuff.s: jcphuff.cpp.s
@@ -519,7 +519,7 @@ jcphuff.s: jcphuff.cpp.s
 
 # target to generate assembly for a file
 jcphuff.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcphuff.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcphuff.cpp.s
 .PHONY : jcphuff.cpp.s
 
 jcprepct.o: jcprepct.cpp.o
@@ -528,7 +528,7 @@ jcprepct.o: jcprepct.cpp.o
 
 # target to build an object file
 jcprepct.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcprepct.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcprepct.cpp.o
 .PHONY : jcprepct.cpp.o
 
 jcprepct.i: jcprepct.cpp.i
@@ -537,7 +537,7 @@ jcprepct.i: jcprepct.cpp.i
 
 # target to preprocess a source file
 jcprepct.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcprepct.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcprepct.cpp.i
 .PHONY : jcprepct.cpp.i
 
 jcprepct.s: jcprepct.cpp.s
@@ -546,7 +546,7 @@ jcprepct.s: jcprepct.cpp.s
 
 # target to generate assembly for a file
 jcprepct.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcprepct.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcprepct.cpp.s
 .PHONY : jcprepct.cpp.s
 
 jcsample.o: jcsample.cpp.o
@@ -555,7 +555,7 @@ jcsample.o: jcsample.cpp.o
 
 # target to build an object file
 jcsample.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcsample.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcsample.cpp.o
 .PHONY : jcsample.cpp.o
 
 jcsample.i: jcsample.cpp.i
@@ -564,7 +564,7 @@ jcsample.i: jcsample.cpp.i
 
 # target to preprocess a source file
 jcsample.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcsample.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcsample.cpp.i
 .PHONY : jcsample.cpp.i
 
 jcsample.s: jcsample.cpp.s
@@ -573,7 +573,7 @@ jcsample.s: jcsample.cpp.s
 
 # target to generate assembly for a file
 jcsample.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcsample.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jcsample.cpp.s
 .PHONY : jcsample.cpp.s
 
 jctrans.o: jctrans.cpp.o
@@ -582,7 +582,7 @@ jctrans.o: jctrans.cpp.o
 
 # target to build an object file
 jctrans.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jctrans.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jctrans.cpp.o
 .PHONY : jctrans.cpp.o
 
 jctrans.i: jctrans.cpp.i
@@ -591,7 +591,7 @@ jctrans.i: jctrans.cpp.i
 
 # target to preprocess a source file
 jctrans.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jctrans.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jctrans.cpp.i
 .PHONY : jctrans.cpp.i
 
 jctrans.s: jctrans.cpp.s
@@ -600,7 +600,7 @@ jctrans.s: jctrans.cpp.s
 
 # target to generate assembly for a file
 jctrans.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jctrans.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jctrans.cpp.s
 .PHONY : jctrans.cpp.s
 
 jdapimin.o: jdapimin.cpp.o
@@ -609,7 +609,7 @@ jdapimin.o: jdapimin.cpp.o
 
 # target to build an object file
 jdapimin.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapimin.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapimin.cpp.o
 .PHONY : jdapimin.cpp.o
 
 jdapimin.i: jdapimin.cpp.i
@@ -618,7 +618,7 @@ jdapimin.i: jdapimin.cpp.i
 
 # target to preprocess a source file
 jdapimin.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapimin.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapimin.cpp.i
 .PHONY : jdapimin.cpp.i
 
 jdapimin.s: jdapimin.cpp.s
@@ -627,7 +627,7 @@ jdapimin.s: jdapimin.cpp.s
 
 # target to generate assembly for a file
 jdapimin.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapimin.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapimin.cpp.s
 .PHONY : jdapimin.cpp.s
 
 jdapistd.o: jdapistd.cpp.o
@@ -636,7 +636,7 @@ jdapistd.o: jdapistd.cpp.o
 
 # target to build an object file
 jdapistd.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapistd.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapistd.cpp.o
 .PHONY : jdapistd.cpp.o
 
 jdapistd.i: jdapistd.cpp.i
@@ -645,7 +645,7 @@ jdapistd.i: jdapistd.cpp.i
 
 # target to preprocess a source file
 jdapistd.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapistd.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapistd.cpp.i
 .PHONY : jdapistd.cpp.i
 
 jdapistd.s: jdapistd.cpp.s
@@ -654,7 +654,7 @@ jdapistd.s: jdapistd.cpp.s
 
 # target to generate assembly for a file
 jdapistd.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapistd.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdapistd.cpp.s
 .PHONY : jdapistd.cpp.s
 
 jdatadst.o: jdatadst.cpp.o
@@ -663,7 +663,7 @@ jdatadst.o: jdatadst.cpp.o
 
 # target to build an object file
 jdatadst.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatadst.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatadst.cpp.o
 .PHONY : jdatadst.cpp.o
 
 jdatadst.i: jdatadst.cpp.i
@@ -672,7 +672,7 @@ jdatadst.i: jdatadst.cpp.i
 
 # target to preprocess a source file
 jdatadst.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatadst.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatadst.cpp.i
 .PHONY : jdatadst.cpp.i
 
 jdatadst.s: jdatadst.cpp.s
@@ -681,7 +681,7 @@ jdatadst.s: jdatadst.cpp.s
 
 # target to generate assembly for a file
 jdatadst.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatadst.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatadst.cpp.s
 .PHONY : jdatadst.cpp.s
 
 jdatasrc.o: jdatasrc.cpp.o
@@ -690,7 +690,7 @@ jdatasrc.o: jdatasrc.cpp.o
 
 # target to build an object file
 jdatasrc.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatasrc.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatasrc.cpp.o
 .PHONY : jdatasrc.cpp.o
 
 jdatasrc.i: jdatasrc.cpp.i
@@ -699,7 +699,7 @@ jdatasrc.i: jdatasrc.cpp.i
 
 # target to preprocess a source file
 jdatasrc.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatasrc.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatasrc.cpp.i
 .PHONY : jdatasrc.cpp.i
 
 jdatasrc.s: jdatasrc.cpp.s
@@ -708,7 +708,7 @@ jdatasrc.s: jdatasrc.cpp.s
 
 # target to generate assembly for a file
 jdatasrc.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatasrc.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdatasrc.cpp.s
 .PHONY : jdatasrc.cpp.s
 
 jdcoefct.o: jdcoefct.cpp.o
@@ -717,7 +717,7 @@ jdcoefct.o: jdcoefct.cpp.o
 
 # target to build an object file
 jdcoefct.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcoefct.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcoefct.cpp.o
 .PHONY : jdcoefct.cpp.o
 
 jdcoefct.i: jdcoefct.cpp.i
@@ -726,7 +726,7 @@ jdcoefct.i: jdcoefct.cpp.i
 
 # target to preprocess a source file
 jdcoefct.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcoefct.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcoefct.cpp.i
 .PHONY : jdcoefct.cpp.i
 
 jdcoefct.s: jdcoefct.cpp.s
@@ -735,7 +735,7 @@ jdcoefct.s: jdcoefct.cpp.s
 
 # target to generate assembly for a file
 jdcoefct.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcoefct.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcoefct.cpp.s
 .PHONY : jdcoefct.cpp.s
 
 jdcolor.o: jdcolor.cpp.o
@@ -744,7 +744,7 @@ jdcolor.o: jdcolor.cpp.o
 
 # target to build an object file
 jdcolor.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcolor.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcolor.cpp.o
 .PHONY : jdcolor.cpp.o
 
 jdcolor.i: jdcolor.cpp.i
@@ -753,7 +753,7 @@ jdcolor.i: jdcolor.cpp.i
 
 # target to preprocess a source file
 jdcolor.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcolor.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcolor.cpp.i
 .PHONY : jdcolor.cpp.i
 
 jdcolor.s: jdcolor.cpp.s
@@ -762,7 +762,7 @@ jdcolor.s: jdcolor.cpp.s
 
 # target to generate assembly for a file
 jdcolor.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcolor.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdcolor.cpp.s
 .PHONY : jdcolor.cpp.s
 
 jddctmgr.o: jddctmgr.cpp.o
@@ -771,7 +771,7 @@ jddctmgr.o: jddctmgr.cpp.o
 
 # target to build an object file
 jddctmgr.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jddctmgr.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jddctmgr.cpp.o
 .PHONY : jddctmgr.cpp.o
 
 jddctmgr.i: jddctmgr.cpp.i
@@ -780,7 +780,7 @@ jddctmgr.i: jddctmgr.cpp.i
 
 # target to preprocess a source file
 jddctmgr.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jddctmgr.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jddctmgr.cpp.i
 .PHONY : jddctmgr.cpp.i
 
 jddctmgr.s: jddctmgr.cpp.s
@@ -789,7 +789,7 @@ jddctmgr.s: jddctmgr.cpp.s
 
 # target to generate assembly for a file
 jddctmgr.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jddctmgr.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jddctmgr.cpp.s
 .PHONY : jddctmgr.cpp.s
 
 jdhuff.o: jdhuff.cpp.o
@@ -798,7 +798,7 @@ jdhuff.o: jdhuff.cpp.o
 
 # target to build an object file
 jdhuff.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdhuff.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdhuff.cpp.o
 .PHONY : jdhuff.cpp.o
 
 jdhuff.i: jdhuff.cpp.i
@@ -807,7 +807,7 @@ jdhuff.i: jdhuff.cpp.i
 
 # target to preprocess a source file
 jdhuff.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdhuff.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdhuff.cpp.i
 .PHONY : jdhuff.cpp.i
 
 jdhuff.s: jdhuff.cpp.s
@@ -816,7 +816,7 @@ jdhuff.s: jdhuff.cpp.s
 
 # target to generate assembly for a file
 jdhuff.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdhuff.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdhuff.cpp.s
 .PHONY : jdhuff.cpp.s
 
 jdinput.o: jdinput.cpp.o
@@ -825,7 +825,7 @@ jdinput.o: jdinput.cpp.o
 
 # target to build an object file
 jdinput.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdinput.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdinput.cpp.o
 .PHONY : jdinput.cpp.o
 
 jdinput.i: jdinput.cpp.i
@@ -834,7 +834,7 @@ jdinput.i: jdinput.cpp.i
 
 # target to preprocess a source file
 jdinput.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdinput.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdinput.cpp.i
 .PHONY : jdinput.cpp.i
 
 jdinput.s: jdinput.cpp.s
@@ -843,7 +843,7 @@ jdinput.s: jdinput.cpp.s
 
 # target to generate assembly for a file
 jdinput.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdinput.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdinput.cpp.s
 .PHONY : jdinput.cpp.s
 
 jdmainct.o: jdmainct.cpp.o
@@ -852,7 +852,7 @@ jdmainct.o: jdmainct.cpp.o
 
 # target to build an object file
 jdmainct.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmainct.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmainct.cpp.o
 .PHONY : jdmainct.cpp.o
 
 jdmainct.i: jdmainct.cpp.i
@@ -861,7 +861,7 @@ jdmainct.i: jdmainct.cpp.i
 
 # target to preprocess a source file
 jdmainct.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmainct.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmainct.cpp.i
 .PHONY : jdmainct.cpp.i
 
 jdmainct.s: jdmainct.cpp.s
@@ -870,7 +870,7 @@ jdmainct.s: jdmainct.cpp.s
 
 # target to generate assembly for a file
 jdmainct.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmainct.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmainct.cpp.s
 .PHONY : jdmainct.cpp.s
 
 jdmarker.o: jdmarker.cpp.o
@@ -879,7 +879,7 @@ jdmarker.o: jdmarker.cpp.o
 
 # target to build an object file
 jdmarker.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmarker.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmarker.cpp.o
 .PHONY : jdmarker.cpp.o
 
 jdmarker.i: jdmarker.cpp.i
@@ -888,7 +888,7 @@ jdmarker.i: jdmarker.cpp.i
 
 # target to preprocess a source file
 jdmarker.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmarker.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmarker.cpp.i
 .PHONY : jdmarker.cpp.i
 
 jdmarker.s: jdmarker.cpp.s
@@ -897,7 +897,7 @@ jdmarker.s: jdmarker.cpp.s
 
 # target to generate assembly for a file
 jdmarker.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmarker.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmarker.cpp.s
 .PHONY : jdmarker.cpp.s
 
 jdmaster.o: jdmaster.cpp.o
@@ -906,7 +906,7 @@ jdmaster.o: jdmaster.cpp.o
 
 # target to build an object file
 jdmaster.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmaster.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmaster.cpp.o
 .PHONY : jdmaster.cpp.o
 
 jdmaster.i: jdmaster.cpp.i
@@ -915,7 +915,7 @@ jdmaster.i: jdmaster.cpp.i
 
 # target to preprocess a source file
 jdmaster.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmaster.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmaster.cpp.i
 .PHONY : jdmaster.cpp.i
 
 jdmaster.s: jdmaster.cpp.s
@@ -924,7 +924,7 @@ jdmaster.s: jdmaster.cpp.s
 
 # target to generate assembly for a file
 jdmaster.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmaster.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmaster.cpp.s
 .PHONY : jdmaster.cpp.s
 
 jdmerge.o: jdmerge.cpp.o
@@ -933,7 +933,7 @@ jdmerge.o: jdmerge.cpp.o
 
 # target to build an object file
 jdmerge.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmerge.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmerge.cpp.o
 .PHONY : jdmerge.cpp.o
 
 jdmerge.i: jdmerge.cpp.i
@@ -942,7 +942,7 @@ jdmerge.i: jdmerge.cpp.i
 
 # target to preprocess a source file
 jdmerge.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmerge.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmerge.cpp.i
 .PHONY : jdmerge.cpp.i
 
 jdmerge.s: jdmerge.cpp.s
@@ -951,7 +951,7 @@ jdmerge.s: jdmerge.cpp.s
 
 # target to generate assembly for a file
 jdmerge.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmerge.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdmerge.cpp.s
 .PHONY : jdmerge.cpp.s
 
 jdphuff.o: jdphuff.cpp.o
@@ -960,7 +960,7 @@ jdphuff.o: jdphuff.cpp.o
 
 # target to build an object file
 jdphuff.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdphuff.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdphuff.cpp.o
 .PHONY : jdphuff.cpp.o
 
 jdphuff.i: jdphuff.cpp.i
@@ -969,7 +969,7 @@ jdphuff.i: jdphuff.cpp.i
 
 # target to preprocess a source file
 jdphuff.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdphuff.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdphuff.cpp.i
 .PHONY : jdphuff.cpp.i
 
 jdphuff.s: jdphuff.cpp.s
@@ -978,7 +978,7 @@ jdphuff.s: jdphuff.cpp.s
 
 # target to generate assembly for a file
 jdphuff.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdphuff.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdphuff.cpp.s
 .PHONY : jdphuff.cpp.s
 
 jdpostct.o: jdpostct.cpp.o
@@ -987,7 +987,7 @@ jdpostct.o: jdpostct.cpp.o
 
 # target to build an object file
 jdpostct.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdpostct.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdpostct.cpp.o
 .PHONY : jdpostct.cpp.o
 
 jdpostct.i: jdpostct.cpp.i
@@ -996,7 +996,7 @@ jdpostct.i: jdpostct.cpp.i
 
 # target to preprocess a source file
 jdpostct.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdpostct.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdpostct.cpp.i
 .PHONY : jdpostct.cpp.i
 
 jdpostct.s: jdpostct.cpp.s
@@ -1005,7 +1005,7 @@ jdpostct.s: jdpostct.cpp.s
 
 # target to generate assembly for a file
 jdpostct.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdpostct.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdpostct.cpp.s
 .PHONY : jdpostct.cpp.s
 
 jdsample.o: jdsample.cpp.o
@@ -1014,7 +1014,7 @@ jdsample.o: jdsample.cpp.o
 
 # target to build an object file
 jdsample.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdsample.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdsample.cpp.o
 .PHONY : jdsample.cpp.o
 
 jdsample.i: jdsample.cpp.i
@@ -1023,7 +1023,7 @@ jdsample.i: jdsample.cpp.i
 
 # target to preprocess a source file
 jdsample.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdsample.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdsample.cpp.i
 .PHONY : jdsample.cpp.i
 
 jdsample.s: jdsample.cpp.s
@@ -1032,7 +1032,7 @@ jdsample.s: jdsample.cpp.s
 
 # target to generate assembly for a file
 jdsample.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdsample.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdsample.cpp.s
 .PHONY : jdsample.cpp.s
 
 jdtrans.o: jdtrans.cpp.o
@@ -1041,7 +1041,7 @@ jdtrans.o: jdtrans.cpp.o
 
 # target to build an object file
 jdtrans.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdtrans.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdtrans.cpp.o
 .PHONY : jdtrans.cpp.o
 
 jdtrans.i: jdtrans.cpp.i
@@ -1050,7 +1050,7 @@ jdtrans.i: jdtrans.cpp.i
 
 # target to preprocess a source file
 jdtrans.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdtrans.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdtrans.cpp.i
 .PHONY : jdtrans.cpp.i
 
 jdtrans.s: jdtrans.cpp.s
@@ -1059,7 +1059,7 @@ jdtrans.s: jdtrans.cpp.s
 
 # target to generate assembly for a file
 jdtrans.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdtrans.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jdtrans.cpp.s
 .PHONY : jdtrans.cpp.s
 
 jerror.o: jerror.cpp.o
@@ -1068,7 +1068,7 @@ jerror.o: jerror.cpp.o
 
 # target to build an object file
 jerror.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jerror.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jerror.cpp.o
 .PHONY : jerror.cpp.o
 
 jerror.i: jerror.cpp.i
@@ -1077,7 +1077,7 @@ jerror.i: jerror.cpp.i
 
 # target to preprocess a source file
 jerror.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jerror.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jerror.cpp.i
 .PHONY : jerror.cpp.i
 
 jerror.s: jerror.cpp.s
@@ -1086,7 +1086,7 @@ jerror.s: jerror.cpp.s
 
 # target to generate assembly for a file
 jerror.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jerror.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jerror.cpp.s
 .PHONY : jerror.cpp.s
 
 jfdctflt.o: jfdctflt.cpp.o
@@ -1095,7 +1095,7 @@ jfdctflt.o: jfdctflt.cpp.o
 
 # target to build an object file
 jfdctflt.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctflt.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctflt.cpp.o
 .PHONY : jfdctflt.cpp.o
 
 jfdctflt.i: jfdctflt.cpp.i
@@ -1104,7 +1104,7 @@ jfdctflt.i: jfdctflt.cpp.i
 
 # target to preprocess a source file
 jfdctflt.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctflt.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctflt.cpp.i
 .PHONY : jfdctflt.cpp.i
 
 jfdctflt.s: jfdctflt.cpp.s
@@ -1113,7 +1113,7 @@ jfdctflt.s: jfdctflt.cpp.s
 
 # target to generate assembly for a file
 jfdctflt.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctflt.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctflt.cpp.s
 .PHONY : jfdctflt.cpp.s
 
 jfdctfst.o: jfdctfst.cpp.o
@@ -1122,7 +1122,7 @@ jfdctfst.o: jfdctfst.cpp.o
 
 # target to build an object file
 jfdctfst.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctfst.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctfst.cpp.o
 .PHONY : jfdctfst.cpp.o
 
 jfdctfst.i: jfdctfst.cpp.i
@@ -1131,7 +1131,7 @@ jfdctfst.i: jfdctfst.cpp.i
 
 # target to preprocess a source file
 jfdctfst.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctfst.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctfst.cpp.i
 .PHONY : jfdctfst.cpp.i
 
 jfdctfst.s: jfdctfst.cpp.s
@@ -1140,7 +1140,7 @@ jfdctfst.s: jfdctfst.cpp.s
 
 # target to generate assembly for a file
 jfdctfst.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctfst.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctfst.cpp.s
 .PHONY : jfdctfst.cpp.s
 
 jfdctint.o: jfdctint.cpp.o
@@ -1149,7 +1149,7 @@ jfdctint.o: jfdctint.cpp.o
 
 # target to build an object file
 jfdctint.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctint.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctint.cpp.o
 .PHONY : jfdctint.cpp.o
 
 jfdctint.i: jfdctint.cpp.i
@@ -1158,7 +1158,7 @@ jfdctint.i: jfdctint.cpp.i
 
 # target to preprocess a source file
 jfdctint.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctint.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctint.cpp.i
 .PHONY : jfdctint.cpp.i
 
 jfdctint.s: jfdctint.cpp.s
@@ -1167,7 +1167,7 @@ jfdctint.s: jfdctint.cpp.s
 
 # target to generate assembly for a file
 jfdctint.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctint.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jfdctint.cpp.s
 .PHONY : jfdctint.cpp.s
 
 jidctflt.o: jidctflt.cpp.o
@@ -1176,7 +1176,7 @@ jidctflt.o: jidctflt.cpp.o
 
 # target to build an object file
 jidctflt.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctflt.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctflt.cpp.o
 .PHONY : jidctflt.cpp.o
 
 jidctflt.i: jidctflt.cpp.i
@@ -1185,7 +1185,7 @@ jidctflt.i: jidctflt.cpp.i
 
 # target to preprocess a source file
 jidctflt.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctflt.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctflt.cpp.i
 .PHONY : jidctflt.cpp.i
 
 jidctflt.s: jidctflt.cpp.s
@@ -1194,7 +1194,7 @@ jidctflt.s: jidctflt.cpp.s
 
 # target to generate assembly for a file
 jidctflt.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctflt.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctflt.cpp.s
 .PHONY : jidctflt.cpp.s
 
 jidctfst.o: jidctfst.cpp.o
@@ -1203,7 +1203,7 @@ jidctfst.o: jidctfst.cpp.o
 
 # target to build an object file
 jidctfst.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctfst.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctfst.cpp.o
 .PHONY : jidctfst.cpp.o
 
 jidctfst.i: jidctfst.cpp.i
@@ -1212,7 +1212,7 @@ jidctfst.i: jidctfst.cpp.i
 
 # target to preprocess a source file
 jidctfst.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctfst.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctfst.cpp.i
 .PHONY : jidctfst.cpp.i
 
 jidctfst.s: jidctfst.cpp.s
@@ -1221,7 +1221,7 @@ jidctfst.s: jidctfst.cpp.s
 
 # target to generate assembly for a file
 jidctfst.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctfst.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctfst.cpp.s
 .PHONY : jidctfst.cpp.s
 
 jidctint.o: jidctint.cpp.o
@@ -1230,7 +1230,7 @@ jidctint.o: jidctint.cpp.o
 
 # target to build an object file
 jidctint.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctint.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctint.cpp.o
 .PHONY : jidctint.cpp.o
 
 jidctint.i: jidctint.cpp.i
@@ -1239,7 +1239,7 @@ jidctint.i: jidctint.cpp.i
 
 # target to preprocess a source file
 jidctint.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctint.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctint.cpp.i
 .PHONY : jidctint.cpp.i
 
 jidctint.s: jidctint.cpp.s
@@ -1248,7 +1248,7 @@ jidctint.s: jidctint.cpp.s
 
 # target to generate assembly for a file
 jidctint.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctint.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctint.cpp.s
 .PHONY : jidctint.cpp.s
 
 jidctred.o: jidctred.cpp.o
@@ -1257,7 +1257,7 @@ jidctred.o: jidctred.cpp.o
 
 # target to build an object file
 jidctred.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctred.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctred.cpp.o
 .PHONY : jidctred.cpp.o
 
 jidctred.i: jidctred.cpp.i
@@ -1266,7 +1266,7 @@ jidctred.i: jidctred.cpp.i
 
 # target to preprocess a source file
 jidctred.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctred.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctred.cpp.i
 .PHONY : jidctred.cpp.i
 
 jidctred.s: jidctred.cpp.s
@@ -1275,7 +1275,7 @@ jidctred.s: jidctred.cpp.s
 
 # target to generate assembly for a file
 jidctred.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctred.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jidctred.cpp.s
 .PHONY : jidctred.cpp.s
 
 jmemmgr.o: jmemmgr.cpp.o
@@ -1284,7 +1284,7 @@ jmemmgr.o: jmemmgr.cpp.o
 
 # target to build an object file
 jmemmgr.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemmgr.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemmgr.cpp.o
 .PHONY : jmemmgr.cpp.o
 
 jmemmgr.i: jmemmgr.cpp.i
@@ -1293,7 +1293,7 @@ jmemmgr.i: jmemmgr.cpp.i
 
 # target to preprocess a source file
 jmemmgr.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemmgr.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemmgr.cpp.i
 .PHONY : jmemmgr.cpp.i
 
 jmemmgr.s: jmemmgr.cpp.s
@@ -1302,7 +1302,7 @@ jmemmgr.s: jmemmgr.cpp.s
 
 # target to generate assembly for a file
 jmemmgr.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemmgr.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemmgr.cpp.s
 .PHONY : jmemmgr.cpp.s
 
 jmemnobs.o: jmemnobs.cpp.o
@@ -1311,7 +1311,7 @@ jmemnobs.o: jmemnobs.cpp.o
 
 # target to build an object file
 jmemnobs.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemnobs.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemnobs.cpp.o
 .PHONY : jmemnobs.cpp.o
 
 jmemnobs.i: jmemnobs.cpp.i
@@ -1320,7 +1320,7 @@ jmemnobs.i: jmemnobs.cpp.i
 
 # target to preprocess a source file
 jmemnobs.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemnobs.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemnobs.cpp.i
 .PHONY : jmemnobs.cpp.i
 
 jmemnobs.s: jmemnobs.cpp.s
@@ -1329,7 +1329,7 @@ jmemnobs.s: jmemnobs.cpp.s
 
 # target to generate assembly for a file
 jmemnobs.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemnobs.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jmemnobs.cpp.s
 .PHONY : jmemnobs.cpp.s
 
 jpeg_rw.o: jpeg_rw.cpp.o
@@ -1338,7 +1338,7 @@ jpeg_rw.o: jpeg_rw.cpp.o
 
 # target to build an object file
 jpeg_rw.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jpeg_rw.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jpeg_rw.cpp.o
 .PHONY : jpeg_rw.cpp.o
 
 jpeg_rw.i: jpeg_rw.cpp.i
@@ -1347,7 +1347,7 @@ jpeg_rw.i: jpeg_rw.cpp.i
 
 # target to preprocess a source file
 jpeg_rw.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jpeg_rw.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jpeg_rw.cpp.i
 .PHONY : jpeg_rw.cpp.i
 
 jpeg_rw.s: jpeg_rw.cpp.s
@@ -1356,7 +1356,7 @@ jpeg_rw.s: jpeg_rw.cpp.s
 
 # target to generate assembly for a file
 jpeg_rw.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jpeg_rw.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jpeg_rw.cpp.s
 .PHONY : jpeg_rw.cpp.s
 
 jquant1.o: jquant1.cpp.o
@@ -1365,7 +1365,7 @@ jquant1.o: jquant1.cpp.o
 
 # target to build an object file
 jquant1.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant1.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant1.cpp.o
 .PHONY : jquant1.cpp.o
 
 jquant1.i: jquant1.cpp.i
@@ -1374,7 +1374,7 @@ jquant1.i: jquant1.cpp.i
 
 # target to preprocess a source file
 jquant1.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant1.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant1.cpp.i
 .PHONY : jquant1.cpp.i
 
 jquant1.s: jquant1.cpp.s
@@ -1383,7 +1383,7 @@ jquant1.s: jquant1.cpp.s
 
 # target to generate assembly for a file
 jquant1.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant1.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant1.cpp.s
 .PHONY : jquant1.cpp.s
 
 jquant2.o: jquant2.cpp.o
@@ -1392,7 +1392,7 @@ jquant2.o: jquant2.cpp.o
 
 # target to build an object file
 jquant2.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant2.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant2.cpp.o
 .PHONY : jquant2.cpp.o
 
 jquant2.i: jquant2.cpp.i
@@ -1401,7 +1401,7 @@ jquant2.i: jquant2.cpp.i
 
 # target to preprocess a source file
 jquant2.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant2.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant2.cpp.i
 .PHONY : jquant2.cpp.i
 
 jquant2.s: jquant2.cpp.s
@@ -1410,7 +1410,7 @@ jquant2.s: jquant2.cpp.s
 
 # target to generate assembly for a file
 jquant2.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant2.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jquant2.cpp.s
 .PHONY : jquant2.cpp.s
 
 jutils.o: jutils.cpp.o
@@ -1419,7 +1419,7 @@ jutils.o: jutils.cpp.o
 
 # target to build an object file
 jutils.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jutils.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jutils.cpp.o
 .PHONY : jutils.cpp.o
 
 jutils.i: jutils.cpp.i
@@ -1428,7 +1428,7 @@ jutils.i: jutils.cpp.i
 
 # target to preprocess a source file
 jutils.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jutils.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jutils.cpp.i
 .PHONY : jutils.cpp.i
 
 jutils.s: jutils.cpp.s
@@ -1437,7 +1437,7 @@ jutils.s: jutils.cpp.s
 
 # target to generate assembly for a file
 jutils.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jutils.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/jutils.cpp.s
 .PHONY : jutils.cpp.s
 
 # Help Target
@@ -1605,6 +1605,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

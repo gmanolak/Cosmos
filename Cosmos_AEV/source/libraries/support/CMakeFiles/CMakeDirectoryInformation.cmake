@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/gmanolak/cosmos/source/core/libraries/support")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

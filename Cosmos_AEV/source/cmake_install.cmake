@@ -1,4 +1,4 @@
-# Install script for directory: /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+# Install script for directory: /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,18 +39,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/agent/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/jpeg/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/zlib/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c/cmake_install.cmake")
-  include("/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/serial/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/agent/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/jpeg/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/zlib/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c/cmake_install.cmake")
+  include("/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/serial/cmake_install.cmake")
 
 endif()
 
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

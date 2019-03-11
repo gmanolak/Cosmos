@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/math/CMakeFiles/CosmosMath.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/math/CMakeFiles/CosmosMath.dir/flags.make
 
 libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o: libraries/math/CMakeFiles/CosmosMath.dir/flags.make
 libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o: /home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/lsfit.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/lsfit.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp
 
 libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosMath.dir/lsfit.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp > CMakeFiles/CosmosMath.dir/lsfit.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp > CMakeFiles/CosmosMath.dir/lsfit.cpp.i
 
 libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosMath.dir/lsfit.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp -o CMakeFiles/CosmosMath.dir/lsfit.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp -o CMakeFiles/CosmosMath.dir/lsfit.cpp.s
 
 libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o.provides.build: libraries/m
 
 libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o: libraries/math/CMakeFiles/CosmosMath.dir/flags.make
 libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/mathlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/mathlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp
 
 libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosMath.dir/mathlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp > CMakeFiles/CosmosMath.dir/mathlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp > CMakeFiles/CosmosMath.dir/mathlib.cpp.i
 
 libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosMath.dir/mathlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp -o CMakeFiles/CosmosMath.dir/mathlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp -o CMakeFiles/CosmosMath.dir/mathlib.cpp.s
 
 libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o.provides.build: libraries
 
 libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o: libraries/math/CMakeFiles/CosmosMath.dir/flags.make
 libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o: /home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/matrix.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/matrix.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp
 
 libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosMath.dir/matrix.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp > CMakeFiles/CosmosMath.dir/matrix.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp > CMakeFiles/CosmosMath.dir/matrix.cpp.i
 
 libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosMath.dir/matrix.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp -o CMakeFiles/CosmosMath.dir/matrix.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp -o CMakeFiles/CosmosMath.dir/matrix.cpp.s
 
 libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o.provides.build: libraries/
 
 libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o: libraries/math/CMakeFiles/CosmosMath.dir/flags.make
 libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o: /home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/rotation.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/rotation.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp
 
 libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosMath.dir/rotation.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp > CMakeFiles/CosmosMath.dir/rotation.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp > CMakeFiles/CosmosMath.dir/rotation.cpp.i
 
 libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosMath.dir/rotation.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp -o CMakeFiles/CosmosMath.dir/rotation.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp -o CMakeFiles/CosmosMath.dir/rotation.cpp.s
 
 libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o.provides.build: librarie
 
 libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o: libraries/math/CMakeFiles/CosmosMath.dir/flags.make
 libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o: /home/gmanolak/cosmos/source/core/libraries/math/vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/vector.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosMath.dir/vector.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/math/vector.cpp
 
 libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosMath.dir/vector.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/vector.cpp > CMakeFiles/CosmosMath.dir/vector.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/math/vector.cpp > CMakeFiles/CosmosMath.dir/vector.cpp.i
 
 libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosMath.dir/vector.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/vector.cpp -o CMakeFiles/CosmosMath.dir/vector.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/math/vector.cpp -o CMakeFiles/CosmosMath.dir/vector.cpp.s
 
 libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o.requires:
 
@@ -195,9 +195,9 @@ libraries/math/libCosmosMath.a: libraries/math/CMakeFiles/CosmosMath.dir/rotatio
 libraries/math/libCosmosMath.a: libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o
 libraries/math/libCosmosMath.a: libraries/math/CMakeFiles/CosmosMath.dir/build.make
 libraries/math/libCosmosMath.a: libraries/math/CMakeFiles/CosmosMath.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libCosmosMath.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && $(CMAKE_COMMAND) -P CMakeFiles/CosmosMath.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosMath.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libCosmosMath.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && $(CMAKE_COMMAND) -P CMakeFiles/CosmosMath.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosMath.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/math/CMakeFiles/CosmosMath.dir/build: libraries/math/libCosmosMath.a
@@ -213,10 +213,10 @@ libraries/math/CMakeFiles/CosmosMath.dir/requires: libraries/math/CMakeFiles/Cos
 .PHONY : libraries/math/CMakeFiles/CosmosMath.dir/requires
 
 libraries/math/CMakeFiles/CosmosMath.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math && $(CMAKE_COMMAND) -P CMakeFiles/CosmosMath.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math && $(CMAKE_COMMAND) -P CMakeFiles/CosmosMath.dir/cmake_clean.cmake
 .PHONY : libraries/math/CMakeFiles/CosmosMath.dir/clean
 
 libraries/math/CMakeFiles/CosmosMath.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/math /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math/CMakeFiles/CosmosMath.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/math /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math/CMakeFiles/CosmosMath.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/math/CMakeFiles/CosmosMath.dir/depend
 

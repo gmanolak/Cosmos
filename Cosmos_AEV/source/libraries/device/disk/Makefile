@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk/CMakeFiles/progress.marks
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk/CMakeFiles/progress.marks
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/clean
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/rule:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/rule
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/rule
 .PHONY : libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CosmosDeviceDisk: libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/rule
 
 # fast build rule for target.
 CosmosDeviceDisk/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build
 .PHONY : CosmosDeviceDisk/fast
 
 devicedisk.o: devicedisk.cpp.o
@@ -177,7 +177,7 @@ devicedisk.o: devicedisk.cpp.o
 
 # target to build an object file
 devicedisk.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o
 .PHONY : devicedisk.cpp.o
 
 devicedisk.i: devicedisk.cpp.i
@@ -186,7 +186,7 @@ devicedisk.i: devicedisk.cpp.i
 
 # target to preprocess a source file
 devicedisk.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.i
 .PHONY : devicedisk.cpp.i
 
 devicedisk.s: devicedisk.cpp.s
@@ -195,7 +195,7 @@ devicedisk.s: devicedisk.cpp.s
 
 # target to generate assembly for a file
 devicedisk.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.s
 .PHONY : devicedisk.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

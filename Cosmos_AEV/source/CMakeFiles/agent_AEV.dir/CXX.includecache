@@ -432,13 +432,13 @@ unixio.h
 zconf.h
 /home/gmanolak/cosmos/source/core/libraries/thirdparty/zlib/zconf.h
 
-/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/Agent_Raspberrypi.cpp
+/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/Agent_Raspberrypi.cpp
 support/configCosmos.h
-/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/support/configCosmos.h
+/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/support/configCosmos.h
 agent/agentclass.h
-/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/agent/agentclass.h
+/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/agent/agentclass.h
 device/serial/serialclass.h
-/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/device/serial/serialclass.h
+/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/device/serial/serialclass.h
 iostream
 -
 fstream

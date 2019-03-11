@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/png/CMakeFiles/localpng.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/png/CMakeFiles/localpng.dir/flags.make
 
 libraries/png/CMakeFiles/localpng.dir/png.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/png.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/png.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libraries/png/CMakeFiles/localpng.dir/png.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/png.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/png.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libraries/png/CMakeFiles/localpng.dir/png.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/png.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/png.c
 
 libraries/png/CMakeFiles/localpng.dir/png.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/png.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/png.c > CMakeFiles/localpng.dir/png.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/png.c > CMakeFiles/localpng.dir/png.c.i
 
 libraries/png/CMakeFiles/localpng.dir/png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/png.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/png.c -o CMakeFiles/localpng.dir/png.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/png.c -o CMakeFiles/localpng.dir/png.c.s
 
 libraries/png/CMakeFiles/localpng.dir/png.c.o.requires:
 
@@ -83,16 +83,16 @@ libraries/png/CMakeFiles/localpng.dir/png.c.o.provides.build: libraries/png/CMak
 
 libraries/png/CMakeFiles/localpng.dir/pngerror.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngerror.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngerror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libraries/png/CMakeFiles/localpng.dir/pngerror.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngerror.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libraries/png/CMakeFiles/localpng.dir/pngerror.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngerror.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngerror.c
 
 libraries/png/CMakeFiles/localpng.dir/pngerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngerror.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngerror.c > CMakeFiles/localpng.dir/pngerror.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngerror.c > CMakeFiles/localpng.dir/pngerror.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngerror.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngerror.c -o CMakeFiles/localpng.dir/pngerror.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngerror.c -o CMakeFiles/localpng.dir/pngerror.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngerror.c.o.requires:
 
@@ -107,16 +107,16 @@ libraries/png/CMakeFiles/localpng.dir/pngerror.c.o.provides.build: libraries/png
 
 libraries/png/CMakeFiles/localpng.dir/pngget.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngget.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libraries/png/CMakeFiles/localpng.dir/pngget.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngget.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libraries/png/CMakeFiles/localpng.dir/pngget.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngget.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngget.c
 
 libraries/png/CMakeFiles/localpng.dir/pngget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngget.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngget.c > CMakeFiles/localpng.dir/pngget.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngget.c > CMakeFiles/localpng.dir/pngget.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngget.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngget.c -o CMakeFiles/localpng.dir/pngget.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngget.c -o CMakeFiles/localpng.dir/pngget.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngget.c.o.requires:
 
@@ -131,16 +131,16 @@ libraries/png/CMakeFiles/localpng.dir/pngget.c.o.provides.build: libraries/png/C
 
 libraries/png/CMakeFiles/localpng.dir/pngmem.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngmem.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libraries/png/CMakeFiles/localpng.dir/pngmem.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngmem.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libraries/png/CMakeFiles/localpng.dir/pngmem.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngmem.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngmem.c
 
 libraries/png/CMakeFiles/localpng.dir/pngmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngmem.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngmem.c > CMakeFiles/localpng.dir/pngmem.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngmem.c > CMakeFiles/localpng.dir/pngmem.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngmem.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngmem.c -o CMakeFiles/localpng.dir/pngmem.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngmem.c -o CMakeFiles/localpng.dir/pngmem.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngmem.c.o.requires:
 
@@ -155,16 +155,16 @@ libraries/png/CMakeFiles/localpng.dir/pngmem.c.o.provides.build: libraries/png/C
 
 libraries/png/CMakeFiles/localpng.dir/pngpread.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngpread.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngpread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libraries/png/CMakeFiles/localpng.dir/pngpread.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngpread.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngpread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libraries/png/CMakeFiles/localpng.dir/pngpread.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngpread.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngpread.c
 
 libraries/png/CMakeFiles/localpng.dir/pngpread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngpread.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngpread.c > CMakeFiles/localpng.dir/pngpread.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngpread.c > CMakeFiles/localpng.dir/pngpread.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngpread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngpread.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngpread.c -o CMakeFiles/localpng.dir/pngpread.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngpread.c -o CMakeFiles/localpng.dir/pngpread.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngpread.c.o.requires:
 
@@ -179,16 +179,16 @@ libraries/png/CMakeFiles/localpng.dir/pngpread.c.o.provides.build: libraries/png
 
 libraries/png/CMakeFiles/localpng.dir/pngread.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngread.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libraries/png/CMakeFiles/localpng.dir/pngread.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngread.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libraries/png/CMakeFiles/localpng.dir/pngread.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngread.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngread.c
 
 libraries/png/CMakeFiles/localpng.dir/pngread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngread.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngread.c > CMakeFiles/localpng.dir/pngread.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngread.c > CMakeFiles/localpng.dir/pngread.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngread.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngread.c -o CMakeFiles/localpng.dir/pngread.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngread.c -o CMakeFiles/localpng.dir/pngread.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngread.c.o.requires:
 
@@ -203,16 +203,16 @@ libraries/png/CMakeFiles/localpng.dir/pngread.c.o.provides.build: libraries/png/
 
 libraries/png/CMakeFiles/localpng.dir/pngrio.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngrio.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libraries/png/CMakeFiles/localpng.dir/pngrio.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngrio.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libraries/png/CMakeFiles/localpng.dir/pngrio.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngrio.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrio.c
 
 libraries/png/CMakeFiles/localpng.dir/pngrio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngrio.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrio.c > CMakeFiles/localpng.dir/pngrio.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrio.c > CMakeFiles/localpng.dir/pngrio.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngrio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngrio.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrio.c -o CMakeFiles/localpng.dir/pngrio.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrio.c -o CMakeFiles/localpng.dir/pngrio.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngrio.c.o.requires:
 
@@ -227,16 +227,16 @@ libraries/png/CMakeFiles/localpng.dir/pngrio.c.o.provides.build: libraries/png/C
 
 libraries/png/CMakeFiles/localpng.dir/pngrtran.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngrtran.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrtran.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libraries/png/CMakeFiles/localpng.dir/pngrtran.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngrtran.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libraries/png/CMakeFiles/localpng.dir/pngrtran.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngrtran.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrtran.c
 
 libraries/png/CMakeFiles/localpng.dir/pngrtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngrtran.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrtran.c > CMakeFiles/localpng.dir/pngrtran.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrtran.c > CMakeFiles/localpng.dir/pngrtran.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngrtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngrtran.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrtran.c -o CMakeFiles/localpng.dir/pngrtran.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrtran.c -o CMakeFiles/localpng.dir/pngrtran.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngrtran.c.o.requires:
 
@@ -251,16 +251,16 @@ libraries/png/CMakeFiles/localpng.dir/pngrtran.c.o.provides.build: libraries/png
 
 libraries/png/CMakeFiles/localpng.dir/pngrutil.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngrutil.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libraries/png/CMakeFiles/localpng.dir/pngrutil.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngrutil.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libraries/png/CMakeFiles/localpng.dir/pngrutil.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngrutil.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrutil.c
 
 libraries/png/CMakeFiles/localpng.dir/pngrutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngrutil.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrutil.c > CMakeFiles/localpng.dir/pngrutil.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrutil.c > CMakeFiles/localpng.dir/pngrutil.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngrutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngrutil.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrutil.c -o CMakeFiles/localpng.dir/pngrutil.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngrutil.c -o CMakeFiles/localpng.dir/pngrutil.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngrutil.c.o.requires:
 
@@ -275,16 +275,16 @@ libraries/png/CMakeFiles/localpng.dir/pngrutil.c.o.provides.build: libraries/png
 
 libraries/png/CMakeFiles/localpng.dir/pngset.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngset.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object libraries/png/CMakeFiles/localpng.dir/pngset.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngset.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object libraries/png/CMakeFiles/localpng.dir/pngset.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngset.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngset.c
 
 libraries/png/CMakeFiles/localpng.dir/pngset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngset.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngset.c > CMakeFiles/localpng.dir/pngset.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngset.c > CMakeFiles/localpng.dir/pngset.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngset.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngset.c -o CMakeFiles/localpng.dir/pngset.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngset.c -o CMakeFiles/localpng.dir/pngset.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngset.c.o.requires:
 
@@ -299,16 +299,16 @@ libraries/png/CMakeFiles/localpng.dir/pngset.c.o.provides.build: libraries/png/C
 
 libraries/png/CMakeFiles/localpng.dir/pngtest.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngtest.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object libraries/png/CMakeFiles/localpng.dir/pngtest.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngtest.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object libraries/png/CMakeFiles/localpng.dir/pngtest.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngtest.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtest.c
 
 libraries/png/CMakeFiles/localpng.dir/pngtest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngtest.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtest.c > CMakeFiles/localpng.dir/pngtest.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtest.c > CMakeFiles/localpng.dir/pngtest.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngtest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngtest.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtest.c -o CMakeFiles/localpng.dir/pngtest.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtest.c -o CMakeFiles/localpng.dir/pngtest.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngtest.c.o.requires:
 
@@ -323,16 +323,16 @@ libraries/png/CMakeFiles/localpng.dir/pngtest.c.o.provides.build: libraries/png/
 
 libraries/png/CMakeFiles/localpng.dir/pngtrans.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngtrans.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtrans.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object libraries/png/CMakeFiles/localpng.dir/pngtrans.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngtrans.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object libraries/png/CMakeFiles/localpng.dir/pngtrans.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngtrans.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtrans.c
 
 libraries/png/CMakeFiles/localpng.dir/pngtrans.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngtrans.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtrans.c > CMakeFiles/localpng.dir/pngtrans.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtrans.c > CMakeFiles/localpng.dir/pngtrans.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngtrans.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngtrans.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtrans.c -o CMakeFiles/localpng.dir/pngtrans.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngtrans.c -o CMakeFiles/localpng.dir/pngtrans.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngtrans.c.o.requires:
 
@@ -347,16 +347,16 @@ libraries/png/CMakeFiles/localpng.dir/pngtrans.c.o.provides.build: libraries/png
 
 libraries/png/CMakeFiles/localpng.dir/pngwio.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngwio.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libraries/png/CMakeFiles/localpng.dir/pngwio.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngwio.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libraries/png/CMakeFiles/localpng.dir/pngwio.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngwio.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwio.c
 
 libraries/png/CMakeFiles/localpng.dir/pngwio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngwio.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwio.c > CMakeFiles/localpng.dir/pngwio.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwio.c > CMakeFiles/localpng.dir/pngwio.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngwio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngwio.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwio.c -o CMakeFiles/localpng.dir/pngwio.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwio.c -o CMakeFiles/localpng.dir/pngwio.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngwio.c.o.requires:
 
@@ -371,16 +371,16 @@ libraries/png/CMakeFiles/localpng.dir/pngwio.c.o.provides.build: libraries/png/C
 
 libraries/png/CMakeFiles/localpng.dir/pngwrite.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngwrite.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object libraries/png/CMakeFiles/localpng.dir/pngwrite.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngwrite.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object libraries/png/CMakeFiles/localpng.dir/pngwrite.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngwrite.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwrite.c
 
 libraries/png/CMakeFiles/localpng.dir/pngwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngwrite.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwrite.c > CMakeFiles/localpng.dir/pngwrite.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwrite.c > CMakeFiles/localpng.dir/pngwrite.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngwrite.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwrite.c -o CMakeFiles/localpng.dir/pngwrite.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwrite.c -o CMakeFiles/localpng.dir/pngwrite.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngwrite.c.o.requires:
 
@@ -395,16 +395,16 @@ libraries/png/CMakeFiles/localpng.dir/pngwrite.c.o.provides.build: libraries/png
 
 libraries/png/CMakeFiles/localpng.dir/pngwtran.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngwtran.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwtran.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object libraries/png/CMakeFiles/localpng.dir/pngwtran.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngwtran.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object libraries/png/CMakeFiles/localpng.dir/pngwtran.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngwtran.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwtran.c
 
 libraries/png/CMakeFiles/localpng.dir/pngwtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngwtran.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwtran.c > CMakeFiles/localpng.dir/pngwtran.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwtran.c > CMakeFiles/localpng.dir/pngwtran.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngwtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngwtran.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwtran.c -o CMakeFiles/localpng.dir/pngwtran.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwtran.c -o CMakeFiles/localpng.dir/pngwtran.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngwtran.c.o.requires:
 
@@ -419,16 +419,16 @@ libraries/png/CMakeFiles/localpng.dir/pngwtran.c.o.provides.build: libraries/png
 
 libraries/png/CMakeFiles/localpng.dir/pngwutil.c.o: libraries/png/CMakeFiles/localpng.dir/flags.make
 libraries/png/CMakeFiles/localpng.dir/pngwutil.c.o: /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object libraries/png/CMakeFiles/localpng.dir/pngwutil.c.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngwutil.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object libraries/png/CMakeFiles/localpng.dir/pngwutil.c.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/localpng.dir/pngwutil.c.o   -c /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwutil.c
 
 libraries/png/CMakeFiles/localpng.dir/pngwutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/localpng.dir/pngwutil.c.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwutil.c > CMakeFiles/localpng.dir/pngwutil.c.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwutil.c > CMakeFiles/localpng.dir/pngwutil.c.i
 
 libraries/png/CMakeFiles/localpng.dir/pngwutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/localpng.dir/pngwutil.c.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwutil.c -o CMakeFiles/localpng.dir/pngwutil.c.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/thirdparty/png/pngwutil.c -o CMakeFiles/localpng.dir/pngwutil.c.s
 
 libraries/png/CMakeFiles/localpng.dir/pngwutil.c.o.requires:
 
@@ -481,9 +481,9 @@ libraries/png/liblocalpng.a: libraries/png/CMakeFiles/localpng.dir/pngwtran.c.o
 libraries/png/liblocalpng.a: libraries/png/CMakeFiles/localpng.dir/pngwutil.c.o
 libraries/png/liblocalpng.a: libraries/png/CMakeFiles/localpng.dir/build.make
 libraries/png/liblocalpng.a: libraries/png/CMakeFiles/localpng.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library liblocalpng.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && $(CMAKE_COMMAND) -P CMakeFiles/localpng.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/localpng.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library liblocalpng.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && $(CMAKE_COMMAND) -P CMakeFiles/localpng.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/localpng.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/png/CMakeFiles/localpng.dir/build: libraries/png/liblocalpng.a
@@ -510,10 +510,10 @@ libraries/png/CMakeFiles/localpng.dir/requires: libraries/png/CMakeFiles/localpn
 .PHONY : libraries/png/CMakeFiles/localpng.dir/requires
 
 libraries/png/CMakeFiles/localpng.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png && $(CMAKE_COMMAND) -P CMakeFiles/localpng.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png && $(CMAKE_COMMAND) -P CMakeFiles/localpng.dir/cmake_clean.cmake
 .PHONY : libraries/png/CMakeFiles/localpng.dir/clean
 
 libraries/png/CMakeFiles/localpng.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/thirdparty/png /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/png/CMakeFiles/localpng.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/thirdparty/png /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/png/CMakeFiles/localpng.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/png/CMakeFiles/localpng.dir/depend
 

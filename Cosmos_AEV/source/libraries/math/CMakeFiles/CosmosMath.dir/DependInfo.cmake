@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o"
-  "/home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o"
-  "/home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o"
-  "/home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o"
-  "/home/gmanolak/cosmos/source/core/libraries/math/vector.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/math/lsfit.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/math/mathlib.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/math/matrix.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/math/rotation.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/math/vector.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

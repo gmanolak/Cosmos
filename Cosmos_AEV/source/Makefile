@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

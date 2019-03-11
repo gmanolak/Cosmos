@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/flags.make
 
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o: libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/flags.make
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/disk/devicedisk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/disk/devicedisk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/disk/devicedisk.cpp
 
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/disk/devicedisk.cpp > CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/disk/devicedisk.cpp > CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.i
 
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/disk/devicedisk.cpp -o CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/disk/devicedisk.cpp -o CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.s
 
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o.requires:
 
@@ -91,9 +91,9 @@ CosmosDeviceDisk_EXTERNAL_OBJECTS =
 libraries/device/disk/libCosmosDeviceDisk.a: libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/devicedisk.cpp.o
 libraries/device/disk/libCosmosDeviceDisk.a: libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make
 libraries/device/disk/libCosmosDeviceDisk.a: libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCosmosDeviceDisk.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceDisk.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosDeviceDisk.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCosmosDeviceDisk.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceDisk.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosDeviceDisk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build: libraries/device/disk/libCosmosDeviceDisk.a
@@ -105,10 +105,10 @@ libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/requires: libraries/device
 .PHONY : libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/requires
 
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceDisk.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceDisk.dir/cmake_clean.cmake
 .PHONY : libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/clean
 
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/device/disk /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/device/disk /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/depend
 

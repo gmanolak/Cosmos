@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 #=============================================================================
 # Target rules for target CMakeFiles/agent_AEV.dir
@@ -70,7 +70,7 @@ CMakeFiles/agent_AEV.dir/all: libraries/zlib/CMakeFiles/localzlib.dir/all
 CMakeFiles/agent_AEV.dir/all: libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/all
 	$(MAKE) -f CMakeFiles/agent_AEV.dir/build.make CMakeFiles/agent_AEV.dir/depend
 	$(MAKE) -f CMakeFiles/agent_AEV.dir/build.make CMakeFiles/agent_AEV.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=41 "Built target agent_AEV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=41 "Built target agent_AEV"
 .PHONY : CMakeFiles/agent_AEV.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/agent_AEV.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/agent_AEV.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 49
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/agent_AEV.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : CMakeFiles/agent_AEV.dir/rule
 
 # Convenience name for target.
@@ -111,7 +111,7 @@ CMakeFiles/agent_GS.dir/all: libraries/zlib/CMakeFiles/localzlib.dir/all
 CMakeFiles/agent_GS.dir/all: libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/all
 	$(MAKE) -f CMakeFiles/agent_GS.dir/build.make CMakeFiles/agent_GS.dir/depend
 	$(MAKE) -f CMakeFiles/agent_GS.dir/build.make CMakeFiles/agent_GS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=42 "Built target agent_GS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=42 "Built target agent_GS"
 .PHONY : CMakeFiles/agent_GS.dir/all
 
 # Include target in all.
@@ -121,9 +121,9 @@ all: CMakeFiles/agent_GS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/agent_GS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 49
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/agent_GS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : CMakeFiles/agent_GS.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ libraries/agent/preinstall:
 libraries/agent/CMakeFiles/CosmosAgent.dir/all:
 	$(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/depend
 	$(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=1,2 "Built target CosmosAgent"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=1,2 "Built target CosmosAgent"
 .PHONY : libraries/agent/CMakeFiles/CosmosAgent.dir/all
 
 # Include target in all.
@@ -176,9 +176,9 @@ all: libraries/agent/CMakeFiles/CosmosAgent.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/agent/CMakeFiles/CosmosAgent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/agent/CMakeFiles/CosmosAgent.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/agent/CMakeFiles/CosmosAgent.dir/rule
 
 # Convenience name for target.
@@ -221,7 +221,7 @@ libraries/support/preinstall:
 libraries/support/CMakeFiles/CosmosSupport.dir/all: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/all
 	$(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/depend
 	$(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target CosmosSupport"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target CosmosSupport"
 .PHONY : libraries/support/CMakeFiles/CosmosSupport.dir/all
 
 # Include target in all.
@@ -231,9 +231,9 @@ all: libraries/support/CMakeFiles/CosmosSupport.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/support/CMakeFiles/CosmosSupport.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 45
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/support/CMakeFiles/CosmosSupport.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/support/CMakeFiles/CosmosSupport.dir/rule
 
 # Convenience name for target.
@@ -276,7 +276,7 @@ libraries/math/preinstall:
 libraries/math/CMakeFiles/CosmosMath.dir/all:
 	$(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/depend
 	$(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=18,19,20,21 "Built target CosmosMath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=18,19,20,21 "Built target CosmosMath"
 .PHONY : libraries/math/CMakeFiles/CosmosMath.dir/all
 
 # Include target in all.
@@ -286,9 +286,9 @@ all: libraries/math/CMakeFiles/CosmosMath.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/math/CMakeFiles/CosmosMath.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/math/CMakeFiles/CosmosMath.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/math/CMakeFiles/CosmosMath.dir/rule
 
 # Convenience name for target.
@@ -331,7 +331,7 @@ libraries/physics/preinstall:
 libraries/physics/CMakeFiles/CosmosPhysics.dir/all:
 	$(MAKE) -f libraries/physics/CMakeFiles/CosmosPhysics.dir/build.make libraries/physics/CMakeFiles/CosmosPhysics.dir/depend
 	$(MAKE) -f libraries/physics/CMakeFiles/CosmosPhysics.dir/build.make libraries/physics/CMakeFiles/CosmosPhysics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=22,23 "Built target CosmosPhysics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=22,23 "Built target CosmosPhysics"
 .PHONY : libraries/physics/CMakeFiles/CosmosPhysics.dir/all
 
 # Include target in all.
@@ -341,9 +341,9 @@ all: libraries/physics/CMakeFiles/CosmosPhysics.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/physics/CMakeFiles/CosmosPhysics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/physics/CMakeFiles/CosmosPhysics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/physics/CMakeFiles/CosmosPhysics.dir/rule
 
 # Convenience name for target.
@@ -386,7 +386,7 @@ libraries/png/preinstall:
 libraries/png/CMakeFiles/localpng.dir/all:
 	$(MAKE) -f libraries/png/CMakeFiles/localpng.dir/build.make libraries/png/CMakeFiles/localpng.dir/depend
 	$(MAKE) -f libraries/png/CMakeFiles/localpng.dir/build.make libraries/png/CMakeFiles/localpng.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=77,78,79,80,81,82,83,84,85,86,87,88 "Built target localpng"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=77,78,79,80,81,82,83,84,85,86,87,88 "Built target localpng"
 .PHONY : libraries/png/CMakeFiles/localpng.dir/all
 
 # Include target in all.
@@ -396,9 +396,9 @@ all: libraries/png/CMakeFiles/localpng.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/png/CMakeFiles/localpng.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/png/CMakeFiles/localpng.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/png/CMakeFiles/localpng.dir/rule
 
 # Convenience name for target.
@@ -441,7 +441,7 @@ libraries/jpeg/preinstall:
 libraries/jpeg/CMakeFiles/localjpeg.dir/all:
 	$(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/depend
 	$(MAKE) -f libraries/jpeg/CMakeFiles/localjpeg.dir/build.make libraries/jpeg/CMakeFiles/localjpeg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76 "Built target localjpeg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76 "Built target localjpeg"
 .PHONY : libraries/jpeg/CMakeFiles/localjpeg.dir/all
 
 # Include target in all.
@@ -451,9 +451,9 @@ all: libraries/jpeg/CMakeFiles/localjpeg.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/jpeg/CMakeFiles/localjpeg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/jpeg/CMakeFiles/localjpeg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/jpeg/CMakeFiles/localjpeg.dir/rule
 
 # Convenience name for target.
@@ -496,7 +496,7 @@ libraries/zlib/preinstall:
 libraries/zlib/CMakeFiles/localzlib.dir/all:
 	$(MAKE) -f libraries/zlib/CMakeFiles/localzlib.dir/build.make libraries/zlib/CMakeFiles/localzlib.dir/depend
 	$(MAKE) -f libraries/zlib/CMakeFiles/localzlib.dir/build.make libraries/zlib/CMakeFiles/localzlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=89,90,91,92,93,94,95,96,97,98,99,100 "Built target localzlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=89,90,91,92,93,94,95,96,97,98,99,100 "Built target localzlib"
 .PHONY : libraries/zlib/CMakeFiles/localzlib.dir/all
 
 # Include target in all.
@@ -506,9 +506,9 @@ all: libraries/zlib/CMakeFiles/localzlib.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/zlib/CMakeFiles/localzlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/zlib/CMakeFiles/localzlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/zlib/CMakeFiles/localzlib.dir/rule
 
 # Convenience name for target.
@@ -551,7 +551,7 @@ libraries/device/general/preinstall:
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/all: libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/all
 	$(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/depend
 	$(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14 "Built target CosmosDeviceGeneral"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14 "Built target CosmosDeviceGeneral"
 .PHONY : libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/all
 
 # Include target in all.
@@ -561,9 +561,9 @@ all: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/rule
 
 # Convenience name for target.
@@ -606,7 +606,7 @@ libraries/device/disk/preinstall:
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/all: libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/all
 	$(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/depend
 	$(MAKE) -f libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build.make libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=4 "Built target CosmosDeviceDisk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=4 "Built target CosmosDeviceDisk"
 .PHONY : libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/all
 
 # Include target in all.
@@ -616,9 +616,9 @@ all: libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/device/disk/CMakeFiles/CosmosDeviceDisk.dir/rule
 
 # Convenience name for target.
@@ -662,7 +662,7 @@ libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/all: libraries/math/CMakeFil
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/all: libraries/zlib/CMakeFiles/localzlib.dir/all
 	$(MAKE) -f libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/build.make libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/depend
 	$(MAKE) -f libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/build.make libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=3 "Built target CosmosDeviceCpu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=3 "Built target CosmosDeviceCpu"
 .PHONY : libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/all
 
 # Include target in all.
@@ -672,9 +672,9 @@ all: libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/rule
 
 # Convenience name for target.
@@ -719,7 +719,7 @@ libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/all: libraries/math/CMakeFil
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/all: libraries/zlib/CMakeFiles/localzlib.dir/all
 	$(MAKE) -f libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/build.make libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/depend
 	$(MAKE) -f libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/build.make libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=15,16 "Built target CosmosDeviceI2C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=15,16 "Built target CosmosDeviceI2C"
 .PHONY : libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/all
 
 # Include target in all.
@@ -729,9 +729,9 @@ all: libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 47
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/rule
 
 # Convenience name for target.
@@ -776,7 +776,7 @@ libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/all: libraries/math/CM
 libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/all: libraries/zlib/CMakeFiles/localzlib.dir/all
 	$(MAKE) -f libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/build.make libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/depend
 	$(MAKE) -f libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/build.make libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=17 "Built target CosmosDeviceSerial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=17 "Built target CosmosDeviceSerial"
 .PHONY : libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/all
 
 # Include target in all.
@@ -786,9 +786,9 @@ all: libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/all
 
 # Build rule for subdir invocation for target.
 libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 46
 	$(MAKE) -f CMakeFiles/Makefile2 libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : libraries/device/serial/CMakeFiles/CosmosDeviceSerial.dir/rule
 
 # Convenience name for target.

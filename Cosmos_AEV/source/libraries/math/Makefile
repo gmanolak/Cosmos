@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/math/CMakeFiles/progress.marks
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/math/CMakeFiles/progress.marks
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/clean
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libraries/math/CMakeFiles/CosmosMath.dir/rule:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/CMakeFiles/CosmosMath.dir/rule
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/math/CMakeFiles/CosmosMath.dir/rule
 .PHONY : libraries/math/CMakeFiles/CosmosMath.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CosmosMath: libraries/math/CMakeFiles/CosmosMath.dir/rule
 
 # fast build rule for target.
 CosmosMath/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/build
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/build
 .PHONY : CosmosMath/fast
 
 lsfit.o: lsfit.cpp.o
@@ -177,7 +177,7 @@ lsfit.o: lsfit.cpp.o
 
 # target to build an object file
 lsfit.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.o
 .PHONY : lsfit.cpp.o
 
 lsfit.i: lsfit.cpp.i
@@ -186,7 +186,7 @@ lsfit.i: lsfit.cpp.i
 
 # target to preprocess a source file
 lsfit.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.i
 .PHONY : lsfit.cpp.i
 
 lsfit.s: lsfit.cpp.s
@@ -195,7 +195,7 @@ lsfit.s: lsfit.cpp.s
 
 # target to generate assembly for a file
 lsfit.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/lsfit.cpp.s
 .PHONY : lsfit.cpp.s
 
 mathlib.o: mathlib.cpp.o
@@ -204,7 +204,7 @@ mathlib.o: mathlib.cpp.o
 
 # target to build an object file
 mathlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.o
 .PHONY : mathlib.cpp.o
 
 mathlib.i: mathlib.cpp.i
@@ -213,7 +213,7 @@ mathlib.i: mathlib.cpp.i
 
 # target to preprocess a source file
 mathlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.i
 .PHONY : mathlib.cpp.i
 
 mathlib.s: mathlib.cpp.s
@@ -222,7 +222,7 @@ mathlib.s: mathlib.cpp.s
 
 # target to generate assembly for a file
 mathlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/mathlib.cpp.s
 .PHONY : mathlib.cpp.s
 
 matrix.o: matrix.cpp.o
@@ -231,7 +231,7 @@ matrix.o: matrix.cpp.o
 
 # target to build an object file
 matrix.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.o
 .PHONY : matrix.cpp.o
 
 matrix.i: matrix.cpp.i
@@ -240,7 +240,7 @@ matrix.i: matrix.cpp.i
 
 # target to preprocess a source file
 matrix.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.i
 .PHONY : matrix.cpp.i
 
 matrix.s: matrix.cpp.s
@@ -249,7 +249,7 @@ matrix.s: matrix.cpp.s
 
 # target to generate assembly for a file
 matrix.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/matrix.cpp.s
 .PHONY : matrix.cpp.s
 
 rotation.o: rotation.cpp.o
@@ -258,7 +258,7 @@ rotation.o: rotation.cpp.o
 
 # target to build an object file
 rotation.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.o
 .PHONY : rotation.cpp.o
 
 rotation.i: rotation.cpp.i
@@ -267,7 +267,7 @@ rotation.i: rotation.cpp.i
 
 # target to preprocess a source file
 rotation.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.i
 .PHONY : rotation.cpp.i
 
 rotation.s: rotation.cpp.s
@@ -276,7 +276,7 @@ rotation.s: rotation.cpp.s
 
 # target to generate assembly for a file
 rotation.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/rotation.cpp.s
 .PHONY : rotation.cpp.s
 
 vector.o: vector.cpp.o
@@ -285,7 +285,7 @@ vector.o: vector.cpp.o
 
 # target to build an object file
 vector.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.o
 .PHONY : vector.cpp.o
 
 vector.i: vector.cpp.i
@@ -294,7 +294,7 @@ vector.i: vector.cpp.i
 
 # target to preprocess a source file
 vector.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.i
 .PHONY : vector.cpp.i
 
 vector.s: vector.cpp.s
@@ -303,7 +303,7 @@ vector.s: vector.cpp.s
 
 # target to generate assembly for a file
 vector.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/math/CMakeFiles/CosmosMath.dir/build.make libraries/math/CMakeFiles/CosmosMath.dir/vector.cpp.s
 .PHONY : vector.cpp.s
 
 # Help Target
@@ -345,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

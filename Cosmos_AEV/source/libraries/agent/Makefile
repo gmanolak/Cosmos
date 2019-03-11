@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/agent/CMakeFiles/progress.marks
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/agent/CMakeFiles/progress.marks
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/clean
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libraries/agent/CMakeFiles/CosmosAgent.dir/rule:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/CMakeFiles/CosmosAgent.dir/rule
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/agent/CMakeFiles/CosmosAgent.dir/rule
 .PHONY : libraries/agent/CMakeFiles/CosmosAgent.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CosmosAgent: libraries/agent/CMakeFiles/CosmosAgent.dir/rule
 
 # fast build rule for target.
 CosmosAgent/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/build
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/build
 .PHONY : CosmosAgent/fast
 
 agentclass.o: agentclass.cpp.o
@@ -177,7 +177,7 @@ agentclass.o: agentclass.cpp.o
 
 # target to build an object file
 agentclass.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/agentclass.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/agentclass.cpp.o
 .PHONY : agentclass.cpp.o
 
 agentclass.i: agentclass.cpp.i
@@ -186,7 +186,7 @@ agentclass.i: agentclass.cpp.i
 
 # target to preprocess a source file
 agentclass.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/agentclass.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/agentclass.cpp.i
 .PHONY : agentclass.cpp.i
 
 agentclass.s: agentclass.cpp.s
@@ -195,7 +195,7 @@ agentclass.s: agentclass.cpp.s
 
 # target to generate assembly for a file
 agentclass.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/agentclass.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/agentclass.cpp.s
 .PHONY : agentclass.cpp.s
 
 scheduler.o: scheduler.cpp.o
@@ -204,7 +204,7 @@ scheduler.o: scheduler.cpp.o
 
 # target to build an object file
 scheduler.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/scheduler.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/scheduler.cpp.o
 .PHONY : scheduler.cpp.o
 
 scheduler.i: scheduler.cpp.i
@@ -213,7 +213,7 @@ scheduler.i: scheduler.cpp.i
 
 # target to preprocess a source file
 scheduler.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/scheduler.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/scheduler.cpp.i
 .PHONY : scheduler.cpp.i
 
 scheduler.s: scheduler.cpp.s
@@ -222,7 +222,7 @@ scheduler.s: scheduler.cpp.s
 
 # target to generate assembly for a file
 scheduler.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/scheduler.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/agent/CMakeFiles/CosmosAgent.dir/build.make libraries/agent/CMakeFiles/CosmosAgent.dir/scheduler.cpp.s
 .PHONY : scheduler.cpp.s
 
 # Help Target
@@ -255,6 +255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

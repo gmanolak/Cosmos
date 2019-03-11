@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support/CMakeFiles/progress.marks
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support/CMakeFiles/progress.marks
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/clean
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libraries/support/CMakeFiles/CosmosSupport.dir/rule:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/CMakeFiles/CosmosSupport.dir/rule
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/support/CMakeFiles/CosmosSupport.dir/rule
 .PHONY : libraries/support/CMakeFiles/CosmosSupport.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CosmosSupport: libraries/support/CMakeFiles/CosmosSupport.dir/rule
 
 # fast build rule for target.
 CosmosSupport/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/build
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/build
 .PHONY : CosmosSupport/fast
 
 command_queue.o: command_queue.cpp.o
@@ -177,7 +177,7 @@ command_queue.o: command_queue.cpp.o
 
 # target to build an object file
 command_queue.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.o
 .PHONY : command_queue.cpp.o
 
 command_queue.i: command_queue.cpp.i
@@ -186,7 +186,7 @@ command_queue.i: command_queue.cpp.i
 
 # target to preprocess a source file
 command_queue.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.i
 .PHONY : command_queue.cpp.i
 
 command_queue.s: command_queue.cpp.s
@@ -195,7 +195,7 @@ command_queue.s: command_queue.cpp.s
 
 # target to generate assembly for a file
 command_queue.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.s
 .PHONY : command_queue.cpp.s
 
 convertlib.o: convertlib.cpp.o
@@ -204,7 +204,7 @@ convertlib.o: convertlib.cpp.o
 
 # target to build an object file
 convertlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.o
 .PHONY : convertlib.cpp.o
 
 convertlib.i: convertlib.cpp.i
@@ -213,7 +213,7 @@ convertlib.i: convertlib.cpp.i
 
 # target to preprocess a source file
 convertlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.i
 .PHONY : convertlib.cpp.i
 
 convertlib.s: convertlib.cpp.s
@@ -222,7 +222,7 @@ convertlib.s: convertlib.cpp.s
 
 # target to generate assembly for a file
 convertlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.s
 .PHONY : convertlib.cpp.s
 
 cosmos-errno.o: cosmos-errno.cpp.o
@@ -231,7 +231,7 @@ cosmos-errno.o: cosmos-errno.cpp.o
 
 # target to build an object file
 cosmos-errno.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o
 .PHONY : cosmos-errno.cpp.o
 
 cosmos-errno.i: cosmos-errno.cpp.i
@@ -240,7 +240,7 @@ cosmos-errno.i: cosmos-errno.cpp.i
 
 # target to preprocess a source file
 cosmos-errno.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.i
 .PHONY : cosmos-errno.cpp.i
 
 cosmos-errno.s: cosmos-errno.cpp.s
@@ -249,7 +249,7 @@ cosmos-errno.s: cosmos-errno.cpp.s
 
 # target to generate assembly for a file
 cosmos-errno.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.s
 .PHONY : cosmos-errno.cpp.s
 
 datalib.o: datalib.cpp.o
@@ -258,7 +258,7 @@ datalib.o: datalib.cpp.o
 
 # target to build an object file
 datalib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.o
 .PHONY : datalib.cpp.o
 
 datalib.i: datalib.cpp.i
@@ -267,7 +267,7 @@ datalib.i: datalib.cpp.i
 
 # target to preprocess a source file
 datalib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.i
 .PHONY : datalib.cpp.i
 
 datalib.s: datalib.cpp.s
@@ -276,7 +276,7 @@ datalib.s: datalib.cpp.s
 
 # target to generate assembly for a file
 datalib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.s
 .PHONY : datalib.cpp.s
 
 demlib.o: demlib.cpp.o
@@ -285,7 +285,7 @@ demlib.o: demlib.cpp.o
 
 # target to build an object file
 demlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.o
 .PHONY : demlib.cpp.o
 
 demlib.i: demlib.cpp.i
@@ -294,7 +294,7 @@ demlib.i: demlib.cpp.i
 
 # target to preprocess a source file
 demlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.i
 .PHONY : demlib.cpp.i
 
 demlib.s: demlib.cpp.s
@@ -303,7 +303,7 @@ demlib.s: demlib.cpp.s
 
 # target to generate assembly for a file
 demlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.s
 .PHONY : demlib.cpp.s
 
 elapsedtime.o: elapsedtime.cpp.o
@@ -312,7 +312,7 @@ elapsedtime.o: elapsedtime.cpp.o
 
 # target to build an object file
 elapsedtime.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o
 .PHONY : elapsedtime.cpp.o
 
 elapsedtime.i: elapsedtime.cpp.i
@@ -321,7 +321,7 @@ elapsedtime.i: elapsedtime.cpp.i
 
 # target to preprocess a source file
 elapsedtime.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.i
 .PHONY : elapsedtime.cpp.i
 
 elapsedtime.s: elapsedtime.cpp.s
@@ -330,7 +330,7 @@ elapsedtime.s: elapsedtime.cpp.s
 
 # target to generate assembly for a file
 elapsedtime.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.s
 .PHONY : elapsedtime.cpp.s
 
 ephemlib.o: ephemlib.cpp.o
@@ -339,7 +339,7 @@ ephemlib.o: ephemlib.cpp.o
 
 # target to build an object file
 ephemlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o
 .PHONY : ephemlib.cpp.o
 
 ephemlib.i: ephemlib.cpp.i
@@ -348,7 +348,7 @@ ephemlib.i: ephemlib.cpp.i
 
 # target to preprocess a source file
 ephemlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.i
 .PHONY : ephemlib.cpp.i
 
 ephemlib.s: ephemlib.cpp.s
@@ -357,7 +357,7 @@ ephemlib.s: ephemlib.cpp.s
 
 # target to generate assembly for a file
 ephemlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.s
 .PHONY : ephemlib.cpp.s
 
 estimation_lib.o: estimation_lib.cpp.o
@@ -366,7 +366,7 @@ estimation_lib.o: estimation_lib.cpp.o
 
 # target to build an object file
 estimation_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o
 .PHONY : estimation_lib.cpp.o
 
 estimation_lib.i: estimation_lib.cpp.i
@@ -375,7 +375,7 @@ estimation_lib.i: estimation_lib.cpp.i
 
 # target to preprocess a source file
 estimation_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.i
 .PHONY : estimation_lib.cpp.i
 
 estimation_lib.s: estimation_lib.cpp.s
@@ -384,7 +384,7 @@ estimation_lib.s: estimation_lib.cpp.s
 
 # target to generate assembly for a file
 estimation_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.s
 .PHONY : estimation_lib.cpp.s
 
 event.o: event.cpp.o
@@ -393,7 +393,7 @@ event.o: event.cpp.o
 
 # target to build an object file
 event.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.o
 .PHONY : event.cpp.o
 
 event.i: event.cpp.i
@@ -402,7 +402,7 @@ event.i: event.cpp.i
 
 # target to preprocess a source file
 event.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.i
 .PHONY : event.cpp.i
 
 event.s: event.cpp.s
@@ -411,7 +411,7 @@ event.s: event.cpp.s
 
 # target to generate assembly for a file
 event.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.s
 .PHONY : event.cpp.s
 
 geomag.o: geomag.cpp.o
@@ -420,7 +420,7 @@ geomag.o: geomag.cpp.o
 
 # target to build an object file
 geomag.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.o
 .PHONY : geomag.cpp.o
 
 geomag.i: geomag.cpp.i
@@ -429,7 +429,7 @@ geomag.i: geomag.cpp.i
 
 # target to preprocess a source file
 geomag.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.i
 .PHONY : geomag.cpp.i
 
 geomag.s: geomag.cpp.s
@@ -438,7 +438,7 @@ geomag.s: geomag.cpp.s
 
 # target to generate assembly for a file
 geomag.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.s
 .PHONY : geomag.cpp.s
 
 jpleph.o: jpleph.cpp.o
@@ -447,7 +447,7 @@ jpleph.o: jpleph.cpp.o
 
 # target to build an object file
 jpleph.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.o
 .PHONY : jpleph.cpp.o
 
 jpleph.i: jpleph.cpp.i
@@ -456,7 +456,7 @@ jpleph.i: jpleph.cpp.i
 
 # target to preprocess a source file
 jpleph.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.i
 .PHONY : jpleph.cpp.i
 
 jpleph.s: jpleph.cpp.s
@@ -465,7 +465,7 @@ jpleph.s: jpleph.cpp.s
 
 # target to generate assembly for a file
 jpleph.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.s
 .PHONY : jpleph.cpp.s
 
 jsonlib.o: jsonlib.cpp.o
@@ -474,7 +474,7 @@ jsonlib.o: jsonlib.cpp.o
 
 # target to build an object file
 jsonlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o
 .PHONY : jsonlib.cpp.o
 
 jsonlib.i: jsonlib.cpp.i
@@ -483,7 +483,7 @@ jsonlib.i: jsonlib.cpp.i
 
 # target to preprocess a source file
 jsonlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.i
 .PHONY : jsonlib.cpp.i
 
 jsonlib.s: jsonlib.cpp.s
@@ -492,7 +492,7 @@ jsonlib.s: jsonlib.cpp.s
 
 # target to generate assembly for a file
 jsonlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.s
 .PHONY : jsonlib.cpp.s
 
 nrlmsise-00.o: nrlmsise-00.cpp.o
@@ -501,7 +501,7 @@ nrlmsise-00.o: nrlmsise-00.cpp.o
 
 # target to build an object file
 nrlmsise-00.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o
 .PHONY : nrlmsise-00.cpp.o
 
 nrlmsise-00.i: nrlmsise-00.cpp.i
@@ -510,7 +510,7 @@ nrlmsise-00.i: nrlmsise-00.cpp.i
 
 # target to preprocess a source file
 nrlmsise-00.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.i
 .PHONY : nrlmsise-00.cpp.i
 
 nrlmsise-00.s: nrlmsise-00.cpp.s
@@ -519,7 +519,7 @@ nrlmsise-00.s: nrlmsise-00.cpp.s
 
 # target to generate assembly for a file
 nrlmsise-00.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.s
 .PHONY : nrlmsise-00.cpp.s
 
 nrlmsise-00_data.o: nrlmsise-00_data.cpp.o
@@ -528,7 +528,7 @@ nrlmsise-00_data.o: nrlmsise-00_data.cpp.o
 
 # target to build an object file
 nrlmsise-00_data.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o
 .PHONY : nrlmsise-00_data.cpp.o
 
 nrlmsise-00_data.i: nrlmsise-00_data.cpp.i
@@ -537,7 +537,7 @@ nrlmsise-00_data.i: nrlmsise-00_data.cpp.i
 
 # target to preprocess a source file
 nrlmsise-00_data.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.i
 .PHONY : nrlmsise-00_data.cpp.i
 
 nrlmsise-00_data.s: nrlmsise-00_data.cpp.s
@@ -546,7 +546,7 @@ nrlmsise-00_data.s: nrlmsise-00_data.cpp.s
 
 # target to generate assembly for a file
 nrlmsise-00_data.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.s
 .PHONY : nrlmsise-00_data.cpp.s
 
 objlib.o: objlib.cpp.o
@@ -555,7 +555,7 @@ objlib.o: objlib.cpp.o
 
 # target to build an object file
 objlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.o
 .PHONY : objlib.cpp.o
 
 objlib.i: objlib.cpp.i
@@ -564,7 +564,7 @@ objlib.i: objlib.cpp.i
 
 # target to preprocess a source file
 objlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.i
 .PHONY : objlib.cpp.i
 
 objlib.s: objlib.cpp.s
@@ -573,7 +573,7 @@ objlib.s: objlib.cpp.s
 
 # target to generate assembly for a file
 objlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.s
 .PHONY : objlib.cpp.s
 
 print_utils.o: print_utils.cpp.o
@@ -582,7 +582,7 @@ print_utils.o: print_utils.cpp.o
 
 # target to build an object file
 print_utils.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.o
 .PHONY : print_utils.cpp.o
 
 print_utils.i: print_utils.cpp.i
@@ -591,7 +591,7 @@ print_utils.i: print_utils.cpp.i
 
 # target to preprocess a source file
 print_utils.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.i
 .PHONY : print_utils.cpp.i
 
 print_utils.s: print_utils.cpp.s
@@ -600,7 +600,7 @@ print_utils.s: print_utils.cpp.s
 
 # target to generate assembly for a file
 print_utils.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.s
 .PHONY : print_utils.cpp.s
 
 sliplib.o: sliplib.cpp.o
@@ -609,7 +609,7 @@ sliplib.o: sliplib.cpp.o
 
 # target to build an object file
 sliplib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.o
 .PHONY : sliplib.cpp.o
 
 sliplib.i: sliplib.cpp.i
@@ -618,7 +618,7 @@ sliplib.i: sliplib.cpp.i
 
 # target to preprocess a source file
 sliplib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.i
 .PHONY : sliplib.cpp.i
 
 sliplib.s: sliplib.cpp.s
@@ -627,7 +627,7 @@ sliplib.s: sliplib.cpp.s
 
 # target to generate assembly for a file
 sliplib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.s
 .PHONY : sliplib.cpp.s
 
 socketlib.o: socketlib.cpp.o
@@ -636,7 +636,7 @@ socketlib.o: socketlib.cpp.o
 
 # target to build an object file
 socketlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.o
 .PHONY : socketlib.cpp.o
 
 socketlib.i: socketlib.cpp.i
@@ -645,7 +645,7 @@ socketlib.i: socketlib.cpp.i
 
 # target to preprocess a source file
 socketlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.i
 .PHONY : socketlib.cpp.i
 
 socketlib.s: socketlib.cpp.s
@@ -654,7 +654,7 @@ socketlib.s: socketlib.cpp.s
 
 # target to generate assembly for a file
 socketlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.s
 .PHONY : socketlib.cpp.s
 
 stringlib.o: stringlib.cpp.o
@@ -663,7 +663,7 @@ stringlib.o: stringlib.cpp.o
 
 # target to build an object file
 stringlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.o
 .PHONY : stringlib.cpp.o
 
 stringlib.i: stringlib.cpp.i
@@ -672,7 +672,7 @@ stringlib.i: stringlib.cpp.i
 
 # target to preprocess a source file
 stringlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.i
 .PHONY : stringlib.cpp.i
 
 stringlib.s: stringlib.cpp.s
@@ -681,7 +681,7 @@ stringlib.s: stringlib.cpp.s
 
 # target to generate assembly for a file
 stringlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.s
 .PHONY : stringlib.cpp.s
 
 timelib.o: timelib.cpp.o
@@ -690,7 +690,7 @@ timelib.o: timelib.cpp.o
 
 # target to build an object file
 timelib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.o
 .PHONY : timelib.cpp.o
 
 timelib.i: timelib.cpp.i
@@ -699,7 +699,7 @@ timelib.i: timelib.cpp.i
 
 # target to preprocess a source file
 timelib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.i
 .PHONY : timelib.cpp.i
 
 timelib.s: timelib.cpp.s
@@ -708,7 +708,7 @@ timelib.s: timelib.cpp.s
 
 # target to generate assembly for a file
 timelib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.s
 .PHONY : timelib.cpp.s
 
 timeutils.o: timeutils.cpp.o
@@ -717,7 +717,7 @@ timeutils.o: timeutils.cpp.o
 
 # target to build an object file
 timeutils.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.o
 .PHONY : timeutils.cpp.o
 
 timeutils.i: timeutils.cpp.i
@@ -726,7 +726,7 @@ timeutils.i: timeutils.cpp.i
 
 # target to preprocess a source file
 timeutils.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.i
 .PHONY : timeutils.cpp.i
 
 timeutils.s: timeutils.cpp.s
@@ -735,7 +735,7 @@ timeutils.s: timeutils.cpp.s
 
 # target to generate assembly for a file
 timeutils.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.s
 .PHONY : timeutils.cpp.s
 
 transferlib.o: transferlib.cpp.o
@@ -744,7 +744,7 @@ transferlib.o: transferlib.cpp.o
 
 # target to build an object file
 transferlib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.o
 .PHONY : transferlib.cpp.o
 
 transferlib.i: transferlib.cpp.i
@@ -753,7 +753,7 @@ transferlib.i: transferlib.cpp.i
 
 # target to preprocess a source file
 transferlib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.i
 .PHONY : transferlib.cpp.i
 
 transferlib.s: transferlib.cpp.s
@@ -762,7 +762,7 @@ transferlib.s: transferlib.cpp.s
 
 # target to generate assembly for a file
 transferlib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/support/CMakeFiles/CosmosSupport.dir/build.make libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.s
 .PHONY : transferlib.cpp.s
 
 # Help Target
@@ -855,6 +855,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

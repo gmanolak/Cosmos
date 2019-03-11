@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/physics/CMakeFiles/CosmosPhysics.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/physics/CMakeFiles/CosmosPhysics.dir/flags.make
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.o: libraries/physics/CMakeFiles/CosmosPhysics.dir/flags.make
 libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.o: /home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosPhysics.dir/constants.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosPhysics.dir/constants.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosPhysics.dir/constants.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp > CMakeFiles/CosmosPhysics.dir/constants.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp > CMakeFiles/CosmosPhysics.dir/constants.cpp.i
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosPhysics.dir/constants.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp -o CMakeFiles/CosmosPhysics.dir/constants.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp -o CMakeFiles/CosmosPhysics.dir/constants.cpp.s
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.o.provides.build: l
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o: libraries/physics/CMakeFiles/CosmosPhysics.dir/flags.make
 libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosPhysics.dir/physicslib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp > CMakeFiles/CosmosPhysics.dir/physicslib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp > CMakeFiles/CosmosPhysics.dir/physicslib.cpp.i
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosPhysics.dir/physicslib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp -o CMakeFiles/CosmosPhysics.dir/physicslib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp -o CMakeFiles/CosmosPhysics.dir/physicslib.cpp.s
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o.requires:
 
@@ -117,9 +117,9 @@ libraries/physics/libCosmosPhysics.a: libraries/physics/CMakeFiles/CosmosPhysics
 libraries/physics/libCosmosPhysics.a: libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o
 libraries/physics/libCosmosPhysics.a: libraries/physics/CMakeFiles/CosmosPhysics.dir/build.make
 libraries/physics/libCosmosPhysics.a: libraries/physics/CMakeFiles/CosmosPhysics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCosmosPhysics.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && $(CMAKE_COMMAND) -P CMakeFiles/CosmosPhysics.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosPhysics.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCosmosPhysics.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && $(CMAKE_COMMAND) -P CMakeFiles/CosmosPhysics.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosPhysics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/physics/CMakeFiles/CosmosPhysics.dir/build: libraries/physics/libCosmosPhysics.a
@@ -132,10 +132,10 @@ libraries/physics/CMakeFiles/CosmosPhysics.dir/requires: libraries/physics/CMake
 .PHONY : libraries/physics/CMakeFiles/CosmosPhysics.dir/requires
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics && $(CMAKE_COMMAND) -P CMakeFiles/CosmosPhysics.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics && $(CMAKE_COMMAND) -P CMakeFiles/CosmosPhysics.dir/cmake_clean.cmake
 .PHONY : libraries/physics/CMakeFiles/CosmosPhysics.dir/clean
 
 libraries/physics/CMakeFiles/CosmosPhysics.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/physics /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics/CMakeFiles/CosmosPhysics.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/physics /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics/CMakeFiles/CosmosPhysics.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/physics/CMakeFiles/CosmosPhysics.dir/depend
 

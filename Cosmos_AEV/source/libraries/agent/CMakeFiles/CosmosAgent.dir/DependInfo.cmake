@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gmanolak/cosmos/source/core/libraries/agent/agentclass.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/agent/CMakeFiles/CosmosAgent.dir/agentclass.cpp.o"
-  "/home/gmanolak/cosmos/source/core/libraries/agent/scheduler.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/agent/CMakeFiles/CosmosAgent.dir/scheduler.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/agent/agentclass.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/agent/CMakeFiles/CosmosAgent.dir/agentclass.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/agent/scheduler.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/agent/CMakeFiles/CosmosAgent.dir/scheduler.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

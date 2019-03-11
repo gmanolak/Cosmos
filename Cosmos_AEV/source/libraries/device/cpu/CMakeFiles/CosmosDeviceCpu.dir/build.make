@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/flags.make
 
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.o: libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/flags.make
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/cpu/devicecpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/cpu/devicecpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/cpu/devicecpu.cpp
 
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/cpu/devicecpu.cpp > CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/cpu/devicecpu.cpp > CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.i
 
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/cpu/devicecpu.cpp -o CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/cpu/devicecpu.cpp -o CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.s
 
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.o.requires:
 
@@ -91,9 +91,9 @@ CosmosDeviceCpu_EXTERNAL_OBJECTS =
 libraries/device/cpu/libCosmosDeviceCpu.a: libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/devicecpu.cpp.o
 libraries/device/cpu/libCosmosDeviceCpu.a: libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/build.make
 libraries/device/cpu/libCosmosDeviceCpu.a: libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCosmosDeviceCpu.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceCpu.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosDeviceCpu.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCosmosDeviceCpu.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceCpu.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosDeviceCpu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/build: libraries/device/cpu/libCosmosDeviceCpu.a
@@ -105,10 +105,10 @@ libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/requires: libraries/device/c
 .PHONY : libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/requires
 
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceCpu.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceCpu.dir/cmake_clean.cmake
 .PHONY : libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/clean
 
 libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/device/cpu /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/device/cpu /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/device/cpu/CMakeFiles/CosmosDeviceCpu.dir/depend
 

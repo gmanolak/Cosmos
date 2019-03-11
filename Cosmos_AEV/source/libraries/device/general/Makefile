@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/general/CMakeFiles/progress.marks
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/general/CMakeFiles/progress.marks
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/clean
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/preinstall
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/rule:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/rule
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f CMakeFiles/Makefile2 libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/rule
 .PHONY : libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ CosmosDeviceGeneral: libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir
 
 # fast build rule for target.
 CosmosDeviceGeneral/fast:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build
 .PHONY : CosmosDeviceGeneral/fast
 
 acq_a35.o: acq_a35.cpp.o
@@ -177,7 +177,7 @@ acq_a35.o: acq_a35.cpp.o
 
 # target to build an object file
 acq_a35.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.o
 .PHONY : acq_a35.cpp.o
 
 acq_a35.i: acq_a35.cpp.i
@@ -186,7 +186,7 @@ acq_a35.i: acq_a35.cpp.i
 
 # target to preprocess a source file
 acq_a35.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.i
 .PHONY : acq_a35.cpp.i
 
 acq_a35.s: acq_a35.cpp.s
@@ -195,7 +195,7 @@ acq_a35.s: acq_a35.cpp.s
 
 # target to generate assembly for a file
 acq_a35.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/acq_a35.cpp.s
 .PHONY : acq_a35.cpp.s
 
 bbFctns.o: bbFctns.cpp.o
@@ -204,7 +204,7 @@ bbFctns.o: bbFctns.cpp.o
 
 # target to build an object file
 bbFctns.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.o
 .PHONY : bbFctns.cpp.o
 
 bbFctns.i: bbFctns.cpp.i
@@ -213,7 +213,7 @@ bbFctns.i: bbFctns.cpp.i
 
 # target to preprocess a source file
 bbFctns.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.i
 .PHONY : bbFctns.cpp.i
 
 bbFctns.s: bbFctns.cpp.s
@@ -222,7 +222,7 @@ bbFctns.s: bbFctns.cpp.s
 
 # target to generate assembly for a file
 bbFctns.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/bbFctns.cpp.s
 .PHONY : bbFctns.cpp.s
 
 cssl_lib.o: cssl_lib.cpp.o
@@ -231,7 +231,7 @@ cssl_lib.o: cssl_lib.cpp.o
 
 # target to build an object file
 cssl_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.o
 .PHONY : cssl_lib.cpp.o
 
 cssl_lib.i: cssl_lib.cpp.i
@@ -240,7 +240,7 @@ cssl_lib.i: cssl_lib.cpp.i
 
 # target to preprocess a source file
 cssl_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.i
 .PHONY : cssl_lib.cpp.i
 
 cssl_lib.s: cssl_lib.cpp.s
@@ -249,7 +249,7 @@ cssl_lib.s: cssl_lib.cpp.s
 
 # target to generate assembly for a file
 cssl_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/cssl_lib.cpp.s
 .PHONY : cssl_lib.cpp.s
 
 gige_lib.o: gige_lib.cpp.o
@@ -258,7 +258,7 @@ gige_lib.o: gige_lib.cpp.o
 
 # target to build an object file
 gige_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.o
 .PHONY : gige_lib.cpp.o
 
 gige_lib.i: gige_lib.cpp.i
@@ -267,7 +267,7 @@ gige_lib.i: gige_lib.cpp.i
 
 # target to preprocess a source file
 gige_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.i
 .PHONY : gige_lib.cpp.i
 
 gige_lib.s: gige_lib.cpp.s
@@ -276,7 +276,7 @@ gige_lib.s: gige_lib.cpp.s
 
 # target to generate assembly for a file
 gige_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gige_lib.cpp.s
 .PHONY : gige_lib.cpp.s
 
 gs232b_lib.o: gs232b_lib.cpp.o
@@ -285,7 +285,7 @@ gs232b_lib.o: gs232b_lib.cpp.o
 
 # target to build an object file
 gs232b_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.o
 .PHONY : gs232b_lib.cpp.o
 
 gs232b_lib.i: gs232b_lib.cpp.i
@@ -294,7 +294,7 @@ gs232b_lib.i: gs232b_lib.cpp.i
 
 # target to preprocess a source file
 gs232b_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.i
 .PHONY : gs232b_lib.cpp.i
 
 gs232b_lib.s: gs232b_lib.cpp.s
@@ -303,7 +303,7 @@ gs232b_lib.s: gs232b_lib.cpp.s
 
 # target to generate assembly for a file
 gs232b_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/gs232b_lib.cpp.s
 .PHONY : gs232b_lib.cpp.s
 
 ic9100_lib.o: ic9100_lib.cpp.o
@@ -312,7 +312,7 @@ ic9100_lib.o: ic9100_lib.cpp.o
 
 # target to build an object file
 ic9100_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.o
 .PHONY : ic9100_lib.cpp.o
 
 ic9100_lib.i: ic9100_lib.cpp.i
@@ -321,7 +321,7 @@ ic9100_lib.i: ic9100_lib.cpp.i
 
 # target to preprocess a source file
 ic9100_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.i
 .PHONY : ic9100_lib.cpp.i
 
 ic9100_lib.s: ic9100_lib.cpp.s
@@ -330,7 +330,7 @@ ic9100_lib.s: ic9100_lib.cpp.s
 
 # target to generate assembly for a file
 ic9100_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ic9100_lib.cpp.s
 .PHONY : ic9100_lib.cpp.s
 
 kisslib.o: kisslib.cpp.o
@@ -339,7 +339,7 @@ kisslib.o: kisslib.cpp.o
 
 # target to build an object file
 kisslib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.o
 .PHONY : kisslib.cpp.o
 
 kisslib.i: kisslib.cpp.i
@@ -348,7 +348,7 @@ kisslib.i: kisslib.cpp.i
 
 # target to preprocess a source file
 kisslib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.i
 .PHONY : kisslib.cpp.i
 
 kisslib.s: kisslib.cpp.s
@@ -357,7 +357,7 @@ kisslib.s: kisslib.cpp.s
 
 # target to generate assembly for a file
 kisslib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisslib.cpp.s
 .PHONY : kisslib.cpp.s
 
 kisstnc_lib.o: kisstnc_lib.cpp.o
@@ -366,7 +366,7 @@ kisstnc_lib.o: kisstnc_lib.cpp.o
 
 # target to build an object file
 kisstnc_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.o
 .PHONY : kisstnc_lib.cpp.o
 
 kisstnc_lib.i: kisstnc_lib.cpp.i
@@ -375,7 +375,7 @@ kisstnc_lib.i: kisstnc_lib.cpp.i
 
 # target to preprocess a source file
 kisstnc_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.i
 .PHONY : kisstnc_lib.cpp.i
 
 kisstnc_lib.s: kisstnc_lib.cpp.s
@@ -384,7 +384,7 @@ kisstnc_lib.s: kisstnc_lib.cpp.s
 
 # target to generate assembly for a file
 kisstnc_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kisstnc_lib.cpp.s
 .PHONY : kisstnc_lib.cpp.s
 
 kpc9612p_lib.o: kpc9612p_lib.cpp.o
@@ -393,7 +393,7 @@ kpc9612p_lib.o: kpc9612p_lib.cpp.o
 
 # target to build an object file
 kpc9612p_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.o
 .PHONY : kpc9612p_lib.cpp.o
 
 kpc9612p_lib.i: kpc9612p_lib.cpp.i
@@ -402,7 +402,7 @@ kpc9612p_lib.i: kpc9612p_lib.cpp.i
 
 # target to preprocess a source file
 kpc9612p_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.i
 .PHONY : kpc9612p_lib.cpp.i
 
 kpc9612p_lib.s: kpc9612p_lib.cpp.s
@@ -411,7 +411,7 @@ kpc9612p_lib.s: kpc9612p_lib.cpp.s
 
 # target to generate assembly for a file
 kpc9612p_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/kpc9612p_lib.cpp.s
 .PHONY : kpc9612p_lib.cpp.s
 
 mixwtnc_lib.o: mixwtnc_lib.cpp.o
@@ -420,7 +420,7 @@ mixwtnc_lib.o: mixwtnc_lib.cpp.o
 
 # target to build an object file
 mixwtnc_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.o
 .PHONY : mixwtnc_lib.cpp.o
 
 mixwtnc_lib.i: mixwtnc_lib.cpp.i
@@ -429,7 +429,7 @@ mixwtnc_lib.i: mixwtnc_lib.cpp.i
 
 # target to preprocess a source file
 mixwtnc_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.i
 .PHONY : mixwtnc_lib.cpp.i
 
 mixwtnc_lib.s: mixwtnc_lib.cpp.s
@@ -438,7 +438,7 @@ mixwtnc_lib.s: mixwtnc_lib.cpp.s
 
 # target to generate assembly for a file
 mixwtnc_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/mixwtnc_lib.cpp.s
 .PHONY : mixwtnc_lib.cpp.s
 
 pic_lib.o: pic_lib.cpp.o
@@ -447,7 +447,7 @@ pic_lib.o: pic_lib.cpp.o
 
 # target to build an object file
 pic_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.o
 .PHONY : pic_lib.cpp.o
 
 pic_lib.i: pic_lib.cpp.i
@@ -456,7 +456,7 @@ pic_lib.i: pic_lib.cpp.i
 
 # target to preprocess a source file
 pic_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.i
 .PHONY : pic_lib.cpp.i
 
 pic_lib.s: pic_lib.cpp.s
@@ -465,7 +465,7 @@ pic_lib.s: pic_lib.cpp.s
 
 # target to generate assembly for a file
 pic_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/pic_lib.cpp.s
 .PHONY : pic_lib.cpp.s
 
 prkx2su_lib.o: prkx2su_lib.cpp.o
@@ -474,7 +474,7 @@ prkx2su_lib.o: prkx2su_lib.cpp.o
 
 # target to build an object file
 prkx2su_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.o
 .PHONY : prkx2su_lib.cpp.o
 
 prkx2su_lib.i: prkx2su_lib.cpp.i
@@ -483,7 +483,7 @@ prkx2su_lib.i: prkx2su_lib.cpp.i
 
 # target to preprocess a source file
 prkx2su_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.i
 .PHONY : prkx2su_lib.cpp.i
 
 prkx2su_lib.s: prkx2su_lib.cpp.s
@@ -492,7 +492,7 @@ prkx2su_lib.s: prkx2su_lib.cpp.s
 
 # target to generate assembly for a file
 prkx2su_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/prkx2su_lib.cpp.s
 .PHONY : prkx2su_lib.cpp.s
 
 ts2000_lib.o: ts2000_lib.cpp.o
@@ -501,7 +501,7 @@ ts2000_lib.o: ts2000_lib.cpp.o
 
 # target to build an object file
 ts2000_lib.cpp.o:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.o
 .PHONY : ts2000_lib.cpp.o
 
 ts2000_lib.i: ts2000_lib.cpp.i
@@ -510,7 +510,7 @@ ts2000_lib.i: ts2000_lib.cpp.i
 
 # target to preprocess a source file
 ts2000_lib.cpp.i:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.i
 .PHONY : ts2000_lib.cpp.i
 
 ts2000_lib.s: ts2000_lib.cpp.s
@@ -519,7 +519,7 @@ ts2000_lib.s: ts2000_lib.cpp.s
 
 # target to generate assembly for a file
 ts2000_lib.cpp.s:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(MAKE) -f libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/build.make libraries/device/general/CMakeFiles/CosmosDeviceGeneral.dir/ts2000_lib.cpp.s
 .PHONY : ts2000_lib.cpp.s
 
 # Help Target
@@ -585,6 +585,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

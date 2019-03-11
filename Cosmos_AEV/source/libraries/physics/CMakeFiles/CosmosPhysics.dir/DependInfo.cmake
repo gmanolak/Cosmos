@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.o"
-  "/home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp" "/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/physics/constants.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics/CMakeFiles/CosmosPhysics.dir/constants.cpp.o"
+  "/home/gmanolak/cosmos/source/core/libraries/physics/physicslib.cpp" "/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/physics/CMakeFiles/CosmosPhysics.dir/physicslib.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

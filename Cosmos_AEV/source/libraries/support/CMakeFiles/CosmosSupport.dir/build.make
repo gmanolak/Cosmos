@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/support/CMakeFiles/CosmosSupport.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 
 libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/command_queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/command_queue.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/command_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/command_queue.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/command_queue.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/command_queue.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/command_queue.cpp > CMakeFiles/CosmosSupport.dir/command_queue.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/command_queue.cpp > CMakeFiles/CosmosSupport.dir/command_queue.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/command_queue.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/command_queue.cpp -o CMakeFiles/CosmosSupport.dir/command_queue.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/command_queue.cpp -o CMakeFiles/CosmosSupport.dir/command_queue.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/command_queue.cpp.o.provides.buil
 
 libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/convertlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/convertlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/convertlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/convertlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/convertlib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/convertlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/convertlib.cpp > CMakeFiles/CosmosSupport.dir/convertlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/convertlib.cpp > CMakeFiles/CosmosSupport.dir/convertlib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/convertlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/convertlib.cpp -o CMakeFiles/CosmosSupport.dir/convertlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/convertlib.cpp -o CMakeFiles/CosmosSupport.dir/convertlib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/convertlib.cpp.o.provides.build: 
 
 libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/cosmos-errno.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/cosmos-errno.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/cosmos-errno.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/cosmos-errno.cpp > CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/cosmos-errno.cpp > CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/cosmos-errno.cpp -o CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/cosmos-errno.cpp -o CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/cosmos-errno.cpp.o.provides.build
 
 libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/datalib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/datalib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/datalib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/datalib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/datalib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/datalib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/datalib.cpp > CMakeFiles/CosmosSupport.dir/datalib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/datalib.cpp > CMakeFiles/CosmosSupport.dir/datalib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/datalib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/datalib.cpp -o CMakeFiles/CosmosSupport.dir/datalib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/datalib.cpp -o CMakeFiles/CosmosSupport.dir/datalib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/datalib.cpp.o.provides.build: lib
 
 libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/demlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/demlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/demlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/demlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/demlib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/demlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/demlib.cpp > CMakeFiles/CosmosSupport.dir/demlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/demlib.cpp > CMakeFiles/CosmosSupport.dir/demlib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/demlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/demlib.cpp -o CMakeFiles/CosmosSupport.dir/demlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/demlib.cpp -o CMakeFiles/CosmosSupport.dir/demlib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.o.requires:
 
@@ -179,16 +179,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/demlib.cpp.o.provides.build: libr
 
 libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/elapsedtime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/elapsedtime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/elapsedtime.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/elapsedtime.cpp > CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/elapsedtime.cpp > CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/elapsedtime.cpp -o CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/elapsedtime.cpp -o CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o.requires:
 
@@ -203,16 +203,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/elapsedtime.cpp.o.provides.build:
 
 libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/ephemlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/ephemlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/ephemlib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/ephemlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/ephemlib.cpp > CMakeFiles/CosmosSupport.dir/ephemlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/ephemlib.cpp > CMakeFiles/CosmosSupport.dir/ephemlib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/ephemlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/ephemlib.cpp -o CMakeFiles/CosmosSupport.dir/ephemlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/ephemlib.cpp -o CMakeFiles/CosmosSupport.dir/ephemlib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o.requires:
 
@@ -227,16 +227,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/ephemlib.cpp.o.provides.build: li
 
 libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/estimation_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/estimation_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/estimation_lib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/estimation_lib.cpp > CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/estimation_lib.cpp > CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/estimation_lib.cpp -o CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/estimation_lib.cpp -o CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o.requires:
 
@@ -251,16 +251,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/estimation_lib.cpp.o.provides.bui
 
 libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/event.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/event.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/event.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/event.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/event.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/event.cpp > CMakeFiles/CosmosSupport.dir/event.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/event.cpp > CMakeFiles/CosmosSupport.dir/event.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/event.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/event.cpp -o CMakeFiles/CosmosSupport.dir/event.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/event.cpp -o CMakeFiles/CosmosSupport.dir/event.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.o.requires:
 
@@ -275,16 +275,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/event.cpp.o.provides.build: libra
 
 libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/geomag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/geomag.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/geomag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/geomag.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/geomag.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/geomag.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/geomag.cpp > CMakeFiles/CosmosSupport.dir/geomag.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/geomag.cpp > CMakeFiles/CosmosSupport.dir/geomag.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/geomag.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/geomag.cpp -o CMakeFiles/CosmosSupport.dir/geomag.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/geomag.cpp -o CMakeFiles/CosmosSupport.dir/geomag.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.o.requires:
 
@@ -299,16 +299,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/geomag.cpp.o.provides.build: libr
 
 libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/jpleph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/jpleph.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/jpleph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/jpleph.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/jpleph.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/jpleph.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/jpleph.cpp > CMakeFiles/CosmosSupport.dir/jpleph.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/jpleph.cpp > CMakeFiles/CosmosSupport.dir/jpleph.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/jpleph.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/jpleph.cpp -o CMakeFiles/CosmosSupport.dir/jpleph.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/jpleph.cpp -o CMakeFiles/CosmosSupport.dir/jpleph.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.o.requires:
 
@@ -323,16 +323,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/jpleph.cpp.o.provides.build: libr
 
 libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/jsonlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/jsonlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/jsonlib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/jsonlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/jsonlib.cpp > CMakeFiles/CosmosSupport.dir/jsonlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/jsonlib.cpp > CMakeFiles/CosmosSupport.dir/jsonlib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/jsonlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/jsonlib.cpp -o CMakeFiles/CosmosSupport.dir/jsonlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/jsonlib.cpp -o CMakeFiles/CosmosSupport.dir/jsonlib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o.requires:
 
@@ -347,16 +347,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/jsonlib.cpp.o.provides.build: lib
 
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00.cpp > CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00.cpp > CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00.cpp -o CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00.cpp -o CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o.requires:
 
@@ -371,16 +371,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00.cpp.o.provides.build:
 
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00_data.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00_data.cpp > CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00_data.cpp > CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00_data.cpp -o CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/nrlmsise-00_data.cpp -o CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o.requires:
 
@@ -395,16 +395,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/nrlmsise-00_data.cpp.o.provides.b
 
 libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/objlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/objlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/objlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/objlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/objlib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/objlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/objlib.cpp > CMakeFiles/CosmosSupport.dir/objlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/objlib.cpp > CMakeFiles/CosmosSupport.dir/objlib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/objlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/objlib.cpp -o CMakeFiles/CosmosSupport.dir/objlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/objlib.cpp -o CMakeFiles/CosmosSupport.dir/objlib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.o.requires:
 
@@ -419,16 +419,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/objlib.cpp.o.provides.build: libr
 
 libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/print_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/print_utils.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/print_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/print_utils.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/print_utils.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/print_utils.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/print_utils.cpp > CMakeFiles/CosmosSupport.dir/print_utils.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/print_utils.cpp > CMakeFiles/CosmosSupport.dir/print_utils.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/print_utils.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/print_utils.cpp -o CMakeFiles/CosmosSupport.dir/print_utils.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/print_utils.cpp -o CMakeFiles/CosmosSupport.dir/print_utils.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.o.requires:
 
@@ -443,16 +443,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/print_utils.cpp.o.provides.build:
 
 libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/sliplib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/sliplib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/sliplib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/sliplib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/sliplib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/sliplib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/sliplib.cpp > CMakeFiles/CosmosSupport.dir/sliplib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/sliplib.cpp > CMakeFiles/CosmosSupport.dir/sliplib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/sliplib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/sliplib.cpp -o CMakeFiles/CosmosSupport.dir/sliplib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/sliplib.cpp -o CMakeFiles/CosmosSupport.dir/sliplib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.o.requires:
 
@@ -467,16 +467,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/sliplib.cpp.o.provides.build: lib
 
 libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/socketlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/socketlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/socketlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/socketlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/socketlib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/socketlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/socketlib.cpp > CMakeFiles/CosmosSupport.dir/socketlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/socketlib.cpp > CMakeFiles/CosmosSupport.dir/socketlib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/socketlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/socketlib.cpp -o CMakeFiles/CosmosSupport.dir/socketlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/socketlib.cpp -o CMakeFiles/CosmosSupport.dir/socketlib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.o.requires:
 
@@ -491,16 +491,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/socketlib.cpp.o.provides.build: l
 
 libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/stringlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/stringlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/stringlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/stringlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/stringlib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/stringlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/stringlib.cpp > CMakeFiles/CosmosSupport.dir/stringlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/stringlib.cpp > CMakeFiles/CosmosSupport.dir/stringlib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/stringlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/stringlib.cpp -o CMakeFiles/CosmosSupport.dir/stringlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/stringlib.cpp -o CMakeFiles/CosmosSupport.dir/stringlib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.o.requires:
 
@@ -515,16 +515,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/stringlib.cpp.o.provides.build: l
 
 libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/timelib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/timelib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/timelib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/timelib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/timelib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/timelib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/timelib.cpp > CMakeFiles/CosmosSupport.dir/timelib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/timelib.cpp > CMakeFiles/CosmosSupport.dir/timelib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/timelib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/timelib.cpp -o CMakeFiles/CosmosSupport.dir/timelib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/timelib.cpp -o CMakeFiles/CosmosSupport.dir/timelib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.o.requires:
 
@@ -539,16 +539,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/timelib.cpp.o.provides.build: lib
 
 libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/timeutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/timeutils.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/timeutils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/timeutils.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/timeutils.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/timeutils.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/timeutils.cpp > CMakeFiles/CosmosSupport.dir/timeutils.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/timeutils.cpp > CMakeFiles/CosmosSupport.dir/timeutils.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/timeutils.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/timeutils.cpp -o CMakeFiles/CosmosSupport.dir/timeutils.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/timeutils.cpp -o CMakeFiles/CosmosSupport.dir/timeutils.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.o.requires:
 
@@ -563,16 +563,16 @@ libraries/support/CMakeFiles/CosmosSupport.dir/timeutils.cpp.o.provides.build: l
 
 libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.o: libraries/support/CMakeFiles/CosmosSupport.dir/flags.make
 libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.o: /home/gmanolak/cosmos/source/core/libraries/support/transferlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/transferlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/transferlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosSupport.dir/transferlib.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/support/transferlib.cpp
 
 libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosSupport.dir/transferlib.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/transferlib.cpp > CMakeFiles/CosmosSupport.dir/transferlib.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/support/transferlib.cpp > CMakeFiles/CosmosSupport.dir/transferlib.cpp.i
 
 libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosSupport.dir/transferlib.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/transferlib.cpp -o CMakeFiles/CosmosSupport.dir/transferlib.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/support/transferlib.cpp -o CMakeFiles/CosmosSupport.dir/transferlib.cpp.s
 
 libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.o.requires:
 
@@ -637,9 +637,9 @@ libraries/support/libCosmosSupport.a: libraries/support/CMakeFiles/CosmosSupport
 libraries/support/libCosmosSupport.a: libraries/support/CMakeFiles/CosmosSupport.dir/transferlib.cpp.o
 libraries/support/libCosmosSupport.a: libraries/support/CMakeFiles/CosmosSupport.dir/build.make
 libraries/support/libCosmosSupport.a: libraries/support/CMakeFiles/CosmosSupport.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library libCosmosSupport.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && $(CMAKE_COMMAND) -P CMakeFiles/CosmosSupport.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosSupport.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library libCosmosSupport.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && $(CMAKE_COMMAND) -P CMakeFiles/CosmosSupport.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosSupport.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/support/CMakeFiles/CosmosSupport.dir/build: libraries/support/libCosmosSupport.a
@@ -672,10 +672,10 @@ libraries/support/CMakeFiles/CosmosSupport.dir/requires: libraries/support/CMake
 .PHONY : libraries/support/CMakeFiles/CosmosSupport.dir/requires
 
 libraries/support/CMakeFiles/CosmosSupport.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support && $(CMAKE_COMMAND) -P CMakeFiles/CosmosSupport.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support && $(CMAKE_COMMAND) -P CMakeFiles/CosmosSupport.dir/cmake_clean.cmake
 .PHONY : libraries/support/CMakeFiles/CosmosSupport.dir/clean
 
 libraries/support/CMakeFiles/CosmosSupport.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/support /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/support/CMakeFiles/CosmosSupport.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/support /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/support/CMakeFiles/CosmosSupport.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/support/CMakeFiles/CosmosSupport.dir/depend
 

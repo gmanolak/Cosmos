@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_SOURCE_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source
+CMAKE_BINARY_DIR = /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source
 
 # Include any dependencies generated for this target.
 include libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/depend.make
@@ -59,16 +59,16 @@ include libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/flags.make
 
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.o: libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/flags.make
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.o: /home/gmanolak/cosmos/source/core/libraries/device/i2c/i2c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.o"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/i2c/i2c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.o"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.o -c /home/gmanolak/cosmos/source/core/libraries/device/i2c/i2c.cpp
 
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.i"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/i2c/i2c.cpp > CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.i
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gmanolak/cosmos/source/core/libraries/device/i2c/i2c.cpp > CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.i
 
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.s"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/i2c/i2c.cpp -o CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.s
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gmanolak/cosmos/source/core/libraries/device/i2c/i2c.cpp -o CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.s
 
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.o.requires:
 
@@ -91,9 +91,9 @@ CosmosDeviceI2C_EXTERNAL_OBJECTS =
 libraries/device/i2c/libCosmosDeviceI2C.a: libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/i2c.cpp.o
 libraries/device/i2c/libCosmosDeviceI2C.a: libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/build.make
 libraries/device/i2c/libCosmosDeviceI2C.a: libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCosmosDeviceI2C.a"
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceI2C.dir/cmake_clean_target.cmake
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosDeviceI2C.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCosmosDeviceI2C.a"
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceI2C.dir/cmake_clean_target.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CosmosDeviceI2C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/build: libraries/device/i2c/libCosmosDeviceI2C.a
@@ -105,10 +105,10 @@ libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/requires: libraries/device/i
 .PHONY : libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/requires
 
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/clean:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceI2C.dir/cmake_clean.cmake
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c && $(CMAKE_COMMAND) -P CMakeFiles/CosmosDeviceI2C.dir/cmake_clean.cmake
 .PHONY : libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/clean
 
 libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/depend:
-	cd /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/core/libraries/device/i2c /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c /home/gmanolak/cosmos/source/projects/template/cosmos-arduino/source/libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/core/libraries/device/i2c /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c /home/gmanolak/cosmos/source/projects/Cosmos_AEV/source/libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/device/i2c/CMakeFiles/CosmosDeviceI2C.dir/depend
 
