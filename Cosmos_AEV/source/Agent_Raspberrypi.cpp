@@ -1,111 +1,3 @@
-
-
-
-/* If not, go to <http://www.gnu.org/licenses/>
- * *
- * * COSMOS/core is free software: you can redistribute it and/or
- * * modify it under the terms of the GNU Lesser General Public License
- * * as published by the Free Software Foundation, either version 3 of
- * * the License, or (at your option) any later version.
- * *
- * * COSMOS/core is distributed in the hope that it will be useful, but
- * * WITHOUT ANY WARRANTY; without even the implied warranty of
- * * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * * Lesser General Public License for more details.
- * *
- * * Refer to the "licences" folder for further information on the
- * * condititons and terms to use this software.
- * ********************************************************************/
-/*
-#include "support/configCosmos.h"
-#include "agent/agentclass.h"
-#include "device/serial/serialclass.h"
-#include <iostream>
-#include <fstream>
-//#define NUM_DATA 2
-
-
-using namespace std;
-Agent *agent;
-ofstream file;
-// use: agent_arduino <agent_name> <device path> <sensor number(ex: 000,001,...)>
-
-
-
-int main(int argc, char** argv)
-{
-cout << "Starting Agent AEV" << endl;
-Agent *agent;
-string nodename = "cubesat1";
-string agentname = "Raspberry"; //name of the agent that the request is directed to
-string soh;
-string serial_port = "/dev/ttyS0";
-size_t serial_baud = 9600;
-string sensor_num = "000";
-if(argc >1)
-agentname = argv[1];
-if (argc >2) 
-{
-serial_port = argv[2];
-}
-if(argc >3){
-sensor_num = argv[3];
-}
-
-switch (argc)
-{
-case 3:
-nodename = argv[2];
-case 2:
-agentname = (string)argv[1] + "Raspberry";
-//raspbi  = (string)argv[1] + "_Raspberry";
-}
-
-agent = new Agent(nodename, agentname);
-//Set SOH String
-// include all namespace names used - the names that are printed from the arduino serial port
-soh= "{\"node_loc_utc\","
-"\"node_loc_pos_eci\"}" ;
-agent->set_sohstring(soh);
-
-ElapsedTime et;
-et.start();
-// set up reading from serial port
-// *
-Serial serial_Raspberry = Serial(serial_port,serial_baud);
-serial_Raspberry.set_timeout(0, 3.);
-
-cout << "serial port: " << serial_port << " at " << serial_baud << endl;
-if (serial_Raspberry.get_error() < 0) {
-// there was error opening the serial port, close the program
-cout << "error opening serial port: " << serial_Raspberry.get_error()  << endl;
-return 0;
-}
- * //
-// Start executing the agent
-while(agent->running())
-{
-int32_t status;
-string jsonstring;
-jsonstring="$GPGGA,015049.811,4054.929,N,08102.499,W,0,00,,,M,,M,,*58";
-// read serial port from the arduino
-// reads the first line and saves it in jsonstring
-// status = serial_Raspberry.get_string(jsonstring, '\n');
-// if(status > 0)
-//{
-
-status = json_parse(jsonstring, agent->cinfo);
-// sanity check
-cout<<jsonstring<<endl;
-//}
-//sleep for 1 sec
-COSMOS_SLEEP(0.1);
-}
-
-return 0;
-}
-
-*/
 #include <support/configCosmos.h>
 #include <agent/agentclass.h>
 #include <serial/serialclass.h>
@@ -124,17 +16,17 @@ int main(int argc, char** argv)
 	string nodename = "cubesat1";
 	string agentname = "gps";
 	agent = new Agent(nodename, agentname);
-	//string serial_port = "/dev/ttyUSB0";
+	string serial_port = "/dev/ttyUSB0";
 	size_t serial_baud = 9600;
-	//Serial serial_gps = Serial(serial_port,serial_baud);
-	// serial_gps.set_timeout(0, 3.);
-	//cout << "serial port: " << serial_port << " at " << serial_baud << endl;
-	//  if (serial_gps.get_error() < 0) {
-	//	       cout << "error opening serial port: " << serial_gps.get_error()  << endl;
-	//	               return 0;
-	//		           } else {
-	//				           cout << "sucess opening serial port " << endl;
-	//					       }
+	Serial serial_gps = Serial(serial_port,serial_baud);
+	serial_gps.set_timeout(0, 3.);
+	cout << "serial port: " << serial_port << " at " << serial_baud << endl;
+	if (serial_gps.get_error() < 0) {
+		cout << "error opening serial port: " << serial_gps.get_error()  << endl;
+		return 0;
+	} else {
+		cout << "sucess opening serial port " << endl;
+	}
 	string soh = "{\"node_loc_utc\","
 		"\"device_gps_geods_000\"}" ;
 	agent->set_sohstring(soh.c_str());
@@ -142,9 +34,7 @@ int main(int argc, char** argv)
 	{
 		int32_t status;
 		string gpsdata;
-		//status = serial_gps.get_string(gpsdata, '\n');
-		gpsdata="$GPGGA,032621.733,3854.932,N,07302.492,W,0,00,,,M,,M,,*59";
-
+		status = serial_gps.get_string(gpsdata, '\n');
 		StringParser nmea(gpsdata);
 		string nmea_id = nmea.getFieldNumber(1);
 		double gps_latitude = 0;
