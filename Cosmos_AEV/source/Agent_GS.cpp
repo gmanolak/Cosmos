@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 	agent = new Agent(nodename, agentname);
 	int32_t iretn;
 	Agent::messstruc mess;
-	int count =0;
+	int count =1;
 	std::fstream fout;
 	std::string filename;
 
