@@ -37,9 +37,9 @@ int main(int argc, char** argv)
 		status = serial_gps.get_string(gpsdata, '\n');
 		StringParser nmea(gpsdata);
 		string nmea_id = nmea.getFieldNumber(1);
-		double gps_latitude = 0;
-		double gps_longitude = 0;
-		double gps_altitute = 0;
+		long double gps_latitude = 0;
+		long double gps_longitude = 0;
+		long double gps_altitute = 0;
 		if (nmea_id.compare("$GPGGA") == 0) {
 			string time_utc = nmea.getFieldNumber(2);
 			int hours = stoi(time_utc.substr(0,2));
